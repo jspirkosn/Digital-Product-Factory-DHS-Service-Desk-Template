@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="DELETE">
+        <active>true</active>
+        <api_name>x_snc_pub_sub_dh_0.Audience for app pub-sub---dhs-service-desk</api_name>
+        <description/>
+        <name>Audience for app pub-sub---dhs-service-desk</name>
+        <role_names/>
+        <roles>0ec9adcaffc3cad03ca0f6648c4fd9ca,c6c9adcaffc3cad03ca0f6648c4fd9d6</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-01 04:36:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ac2de1beff0702103ca0f6648c4fd9e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for app pub-sub---dhs-service-desk</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_update_name>sys_ux_applicability_ac2de1beff0702103ca0f6648c4fd9e1</sys_update_name>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-01 04:36:09</sys_updated_on>
+    </sys_ux_applicability>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</application>
+        <file_path/>
+        <instance_id>76bfb9f61ba9f594fe1b43f4bd4bcb74</instance_id>
+        <instance_name>dsforum</instance_name>
+        <name>sys_ux_applicability_ac2de1beff0702103ca0f6648c4fd9e1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability"><sys_ux_applicability action="INSERT_OR_UPDATE"><active>true</active><api_name>x_snc_pub_sub_dh_0.Audience for app pub-sub---dhs-service-desk</api_name><description/><name>Audience for app pub-sub---dhs-service-desk</name><role_names/><roles>0ec9adcaffc3cad03ca0f6648c4fd9ca,c6c9adcaffc3cad03ca0f6648c4fd9d6</roles><sys_class_name>sys_ux_applicability</sys_class_name><sys_created_by>jspirko</sys_created_by><sys_created_on>2024-07-01 04:36:09</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ac2de1beff0702103ca0f6648c4fd9e1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Audience for app pub-sub---dhs-service-desk</sys_name><sys_overrides/><sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package><sys_policy/><sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope><sys_update_name>sys_ux_applicability_ac2de1beff0702103ca0f6648c4fd9e1</sys_update_name><sys_updated_by>jspirko</sys_updated_by><sys_updated_on>2024-07-01 04:36:09</sys_updated_on></sys_ux_applicability></record_update>]]></payload>
+        <payload_hash>68459112</payload_hash>
+        <record_name>Audience for app pub-sub---dhs-service-desk</record_name>
+        <reverted_from/>
+        <source>f504eafcff5a42103ca0f6648c4fd9dc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-01 04:36:09</sys_created_on>
+        <sys_id>e82de1beff0702103ca0f6648c4fd9e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1906c9430d90000001</sys_recorded_at>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-01 04:36:09</sys_updated_on>
+        <type>Audience</type>
+        <update_guid>ac2de1be48070210cc39e13f50fb75e4</update_guid>
+        <update_guid_history>ac2de1be48070210cc39e13f50fb75e4:68459112</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-01 04:56:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_applicability">sys_ux_applicability</sys_db_object>
+        <sys_id>4add98e7b9f949689a9df59af0f5aac4</sys_id>
+        <sys_metadata>ac2de1beff0702103ca0f6648c4fd9e1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for app pub-sub---dhs-service-desk</sys_name>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_scope_delete display_value="">46efe59db52b4c0da8bf7f5e083feb49</sys_scope_delete>
+        <sys_update_name>sys_ux_applicability_ac2de1beff0702103ca0f6648c4fd9e1</sys_update_name>
+        <sys_update_version display_value="sys_ux_applicability_ac2de1beff0702103ca0f6648c4fd9e1">e82de1beff0702103ca0f6648c4fd9e5</sys_update_version>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-01 04:56:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

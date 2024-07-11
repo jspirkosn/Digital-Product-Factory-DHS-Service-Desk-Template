@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="DELETE">
+        <dictionary display_value="default_stop_word_dictionary">9865058bc7031010d1cfd9795cc26037</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>true</marked_for_deletion>
+        <profile display_value="pub-sub---dhs-service-desk Search Profile">9b1da1be6107021029abca5d0f7070c2</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-01 04:36:05</sys_created_on>
+        <sys_id>9f1da1be2e070210986f988a2fbdc8c1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>default_stop_word_dictionary.pub-sub---dhs-service-desk Search Profile</sys_name>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_9f1da1be2e070210986f988a2fbdc8c1</sys_update_name>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-01 04:53:08</sys_updated_on>
+    </ais_search_profile_ais_dictionary_m2m>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</application>
+        <file_path/>
+        <instance_id>76bfb9f61ba9f594fe1b43f4bd4bcb74</instance_id>
+        <instance_name>dsforum</instance_name>
+        <name>ais_search_profile_ais_dictionary_m2m_9f1da1be2e070210986f988a2fbdc8c1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m"><ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE"><dictionary display_value="default_stop_word_dictionary">9865058bc7031010d1cfd9795cc26037</dictionary><dictionary_reference_qualifier/><marked_for_deletion>true</marked_for_deletion><profile display_value="pub-sub---dhs-service-desk Search Profile">9b1da1be6107021029abca5d0f7070c2</profile><sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name><sys_created_by>jspirko</sys_created_by><sys_created_on>2024-07-01 04:36:05</sys_created_on><sys_id>9f1da1be2e070210986f988a2fbdc8c1</sys_id><sys_mod_count>1</sys_mod_count><sys_name>default_stop_word_dictionary.pub-sub---dhs-service-desk Search Profile</sys_name><sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package><sys_policy/><sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope><sys_update_name>ais_search_profile_ais_dictionary_m2m_9f1da1be2e070210986f988a2fbdc8c1</sys_update_name><sys_updated_by>jspirko</sys_updated_by><sys_updated_on>2024-07-01 04:53:08</sys_updated_on></ais_search_profile_ais_dictionary_m2m></record_update>]]></payload>
+        <payload_hash>1036287850</payload_hash>
+        <record_name>default_stop_word_dictionary.pub-sub---dhs-service-desk Search Profile</record_name>
+        <reverted_from/>
+        <source>f504eafcff5a42103ca0f6648c4fd9dc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-01 04:53:08</sys_created_on>
+        <sys_id>9d017576ff4702103ca0f6648c4fd92a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1906ca3bdea0000001</sys_recorded_at>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-01 04:53:08</sys_updated_on>
+        <type>AI Search Search Profile Dictionary Mapp</type>
+        <update_guid>d1017576ea47021022281934615aa62a</update_guid>
+        <update_guid_history>d1017576ea47021022281934615aa62a:1036287850,5d0175760a470210a4fd927605fab228:-1603390419</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="default_stop_word_dictionary.pub-sub---dhs-service-desk Search Profile">b811b576ff4702103ca0f6648c4fd9d0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-01 04:53:23</sys_created_on>
+        <sys_db_object display_value="" name="ais_search_profile_ais_dictionary_m2m">ais_search_profile_ais_dictionary_m2m</sys_db_object>
+        <sys_id>1ddd6a65638049c48e9c9a5ab6ddc390</sys_id>
+        <sys_metadata>9f1da1be2e070210986f988a2fbdc8c1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>default_stop_word_dictionary.pub-sub---dhs-service-desk Search Profile</sys_name>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_scope_delete display_value="">46efe59db52b4c0da8bf7f5e083feb49</sys_scope_delete>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_9f1da1be2e070210986f988a2fbdc8c1</sys_update_name>
+        <sys_update_version display_value="ais_search_profile_ais_dictionary_m2m_9f1da1be2e070210986f988a2fbdc8c1">9d017576ff4702103ca0f6648c4fd92a</sys_update_version>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-01 04:53:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

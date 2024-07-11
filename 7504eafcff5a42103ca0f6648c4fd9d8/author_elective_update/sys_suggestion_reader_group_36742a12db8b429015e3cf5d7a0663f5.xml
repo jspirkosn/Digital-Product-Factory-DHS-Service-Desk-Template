@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_suggestion_reader_group">
+    <sys_suggestion_reader_group action="DELETE">
+        <click_in_mode>false</click_in_mode>
+        <context_config_id display_value="{Program Name} DHS Service Desk - Workspace Search">be742a12bf8b42902908df54f4e733f1</context_config_id>
+        <limit>5</limit>
+        <order>600</order>
+        <section_header>Suggested</section_header>
+        <suggestion_type>Search-based Suggested Results Reader Group for Starter Workspace - Workspace Search</suggestion_type>
+        <sys_class_name>sys_suggestion_reader_group</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-06-29 19:21:02</sys_created_on>
+        <sys_id>36742a12db8b429015e3cf5d7a0663f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Search-based Suggested Results Reader Group for Starter Workspace - Workspace Search</sys_name>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_update_name>sys_suggestion_reader_group_36742a12db8b429015e3cf5d7a0663f5</sys_update_name>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-06-29 19:21:02</sys_updated_on>
+    </sys_suggestion_reader_group>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</application>
+        <file_path/>
+        <instance_id>76bfb9f61ba9f594fe1b43f4bd4bcb74</instance_id>
+        <instance_name>dsforum</instance_name>
+        <name>sys_suggestion_reader_group_36742a12db8b429015e3cf5d7a0663f5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_suggestion_reader_group"><sys_suggestion_reader_group action="INSERT_OR_UPDATE"><click_in_mode>false</click_in_mode><context_config_id display_value="{Program Name} DHS Service Desk - Workspace Search">be742a12bf8b42902908df54f4e733f1</context_config_id><limit>5</limit><order>600</order><section_header>Suggested</section_header><suggestion_type>Search-based Suggested Results Reader Group for Starter Workspace - Workspace Search</suggestion_type><sys_class_name>sys_suggestion_reader_group</sys_class_name><sys_created_by>jspirko</sys_created_by><sys_created_on>2024-06-29 19:21:02</sys_created_on><sys_id>36742a12db8b429015e3cf5d7a0663f5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Search-based Suggested Results Reader Group for Starter Workspace - Workspace Search</sys_name><sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package><sys_policy/><sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope><sys_update_name>sys_suggestion_reader_group_36742a12db8b429015e3cf5d7a0663f5</sys_update_name><sys_updated_by>jspirko</sys_updated_by><sys_updated_on>2024-06-29 19:21:02</sys_updated_on></sys_suggestion_reader_group></record_update>]]></payload>
+        <payload_hash>906539777</payload_hash>
+        <record_name>Search-based Suggested Results Reader Group for Starter Workspace - Workspace Search</record_name>
+        <reverted_from/>
+        <source>73e2da11eb2202105204f635cad0cd91</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-01 18:59:01</sys_created_on>
+        <sys_id>f1503752ebc382905204f635cad0cdd3</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fd52b61080000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Suggestion Reader Group</type>
+        <update_guid>b150375297c382905d6660315af547d3</update_guid>
+        <update_guid_history>b150375297c382905d6660315af547d3:906539777</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-06-30 00:52:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_suggestion_reader_group">sys_suggestion_reader_group</sys_db_object>
+        <sys_id>0b7993e2d36d44608172e37762ae4400</sys_id>
+        <sys_metadata>36742a12db8b429015e3cf5d7a0663f5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Search-based Suggested Results Reader Group for Starter Workspace - Workspace Search</sys_name>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_scope_delete display_value="">46efe59db52b4c0da8bf7f5e083feb49</sys_scope_delete>
+        <sys_update_name>sys_suggestion_reader_group_36742a12db8b429015e3cf5d7a0663f5</sys_update_name>
+        <sys_update_version display_value="sys_suggestion_reader_group_36742a12db8b429015e3cf5d7a0663f5">f1503752ebc382905204f635cad0cdd3</sys_update_version>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-06-30 00:52:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

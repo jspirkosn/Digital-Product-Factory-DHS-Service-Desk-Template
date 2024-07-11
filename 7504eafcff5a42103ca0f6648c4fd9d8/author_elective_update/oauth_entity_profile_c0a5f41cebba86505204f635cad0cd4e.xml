@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile">
+    <oauth_entity_profile action="DELETE">
+        <default>true</default>
+        <grant_type>authorization_code</grant_type>
+        <jwt_provider/>
+        <name>ArcGIS Online OAuth default_profile</name>
+        <oauth_entity display_value="ArcGIS Online OAuth">c4453cd8ebba86505204f635cad0cd6e</oauth_entity>
+        <saml2_assertion_producer/>
+        <sys_class_name>oauth_entity_profile</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-06-10 19:53:07</sys_created_on>
+        <sys_id>c0a5f41cebba86505204f635cad0cd4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ArcGIS Online OAuth default_profile</sys_name>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_update_name>oauth_entity_profile_c0a5f41cebba86505204f635cad0cd4e</sys_update_name>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-06-10 19:53:07</sys_updated_on>
+    </oauth_entity_profile>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</application>
+        <file_path/>
+        <instance_id>76bfb9f61ba9f594fe1b43f4bd4bcb74</instance_id>
+        <instance_name>dsforum</instance_name>
+        <name>oauth_entity_profile_c0a5f41cebba86505204f635cad0cd4e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile"><oauth_entity_profile action="INSERT_OR_UPDATE"><default>true</default><grant_type>authorization_code</grant_type><jwt_provider/><name>ArcGIS Online OAuth default_profile</name><oauth_entity display_value="ArcGIS Online OAuth">c4453cd8ebba86505204f635cad0cd6e</oauth_entity><saml2_assertion_producer/><sys_class_name>oauth_entity_profile</sys_class_name><sys_created_by>jspirko</sys_created_by><sys_created_on>2024-06-10 19:53:07</sys_created_on><sys_id>c0a5f41cebba86505204f635cad0cd4e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ArcGIS Online OAuth default_profile</sys_name><sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package><sys_policy/><sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope><sys_update_name>oauth_entity_profile_c0a5f41cebba86505204f635cad0cd4e</sys_update_name><sys_updated_by>jspirko</sys_updated_by><sys_updated_on>2024-06-10 19:53:07</sys_updated_on></oauth_entity_profile></record_update>]]></payload>
+        <payload_hash>-1497217112</payload_hash>
+        <record_name>ArcGIS Online OAuth default_profile</record_name>
+        <reverted_from/>
+        <source>f504eafcff5a42103ca0f6648c4fd9dc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-06-10 19:53:07</sys_created_on>
+        <sys_id>48a5f41cebba86505204f635cad0cd51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19003b628670000001</sys_recorded_at>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-06-10 19:53:07</sys_updated_on>
+        <type>OAuth Entity Profile</type>
+        <update_guid>88a5f41c25ba8650d6b02f123ead1950</update_guid>
+        <update_guid_history>88a5f41c25ba8650d6b02f123ead1950:-1497217112</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ArcGIS Online OAuth default_profile">3861fa24ebf64a505204f635cad0cd04</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-06-11 23:32:20</sys_created_on>
+        <sys_db_object display_value="" name="oauth_entity_profile">oauth_entity_profile</sys_db_object>
+        <sys_id>014ca2a6131849e0806d425caf860cc4</sys_id>
+        <sys_metadata>c0a5f41cebba86505204f635cad0cd4e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ArcGIS Online OAuth default_profile</sys_name>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_scope_delete display_value="">46efe59db52b4c0da8bf7f5e083feb49</sys_scope_delete>
+        <sys_update_name>oauth_entity_profile_c0a5f41cebba86505204f635cad0cd4e</sys_update_name>
+        <sys_update_version display_value="oauth_entity_profile_c0a5f41cebba86505204f635cad0cd4e">48a5f41cebba86505204f635cad0cd51</sys_update_version>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-06-11 23:32:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

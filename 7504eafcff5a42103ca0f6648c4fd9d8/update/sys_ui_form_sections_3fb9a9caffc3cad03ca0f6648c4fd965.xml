@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="3fb9a9caffc3cad03ca0f6648c4fd965" sys_domain="global" table="x_snc_pub_sub_dh_0_program_name_applications" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>jspirko</sys_created_by>
+            <sys_created_on>2024-06-28 20:25:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3bb9e9caffc3cad03ca0f6648c4fd964</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_pub_sub_dh_0_program_name_applications" name="x_snc_pub_sub_dh_0_program_name_applications" sys_domain="global" view="532646bec3213110299931ef05013153">3fb9a9caffc3cad03ca0f6648c4fd965</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_pub_sub_dh_0_program_name_applications" sys_domain="global" view="532646bec3213110299931ef05013153">ffb9e9caffc3cad03ca0f6648c4fd952</sys_ui_section>
+            <sys_updated_by>jspirko</sys_updated_by>
+            <sys_updated_on>2024-06-28 20:25:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>jspirko</sys_created_by>
+            <sys_created_on>2024-06-28 20:25:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>77b9e9caffc3cad03ca0f6648c4fd952</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_pub_sub_dh_0_program_name_applications" name="x_snc_pub_sub_dh_0_program_name_applications" sys_domain="global" view="532646bec3213110299931ef05013153">3fb9a9caffc3cad03ca0f6648c4fd965</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_snc_pub_sub_dh_0_program_name_applications" sys_domain="global" view="532646bec3213110299931ef05013153">77b9e9caffc3cad03ca0f6648c4fd949</sys_ui_section>
+            <sys_updated_by>jspirko</sys_updated_by>
+            <sys_updated_on>2024-06-28 20:25:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>jspirko</sys_created_by>
+            <sys_created_on>2024-06-28 20:25:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8cc9e9caffc3cad03ca0f6648c4fd96c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_pub_sub_dh_0_program_name_applications" name="x_snc_pub_sub_dh_0_program_name_applications" sys_domain="global" view="532646bec3213110299931ef05013153">3fb9a9caffc3cad03ca0f6648c4fd965</sys_ui_form>
+            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="x_snc_pub_sub_dh_0_program_name_applications" sys_domain="global" view="532646bec3213110299931ef05013153">bfb9e9caffc3cad03ca0f6648c4fd964</sys_ui_section>
+            <sys_updated_by>jspirko</sys_updated_by>
+            <sys_updated_on>2024-06-28 20:25:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>jspirko</sys_created_by>
+            <sys_created_on>2024-06-28 20:25:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c0c9e9caffc3cad03ca0f6648c4fd975</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_pub_sub_dh_0_program_name_applications" name="x_snc_pub_sub_dh_0_program_name_applications" sys_domain="global" view="532646bec3213110299931ef05013153">3fb9a9caffc3cad03ca0f6648c4fd965</sys_ui_form>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="x_snc_pub_sub_dh_0_program_name_applications" sys_domain="global" view="532646bec3213110299931ef05013153">04c9e9caffc3cad03ca0f6648c4fd96d</sys_ui_section>
+            <sys_updated_by>jspirko</sys_updated_by>
+            <sys_updated_on>2024-06-28 20:25:56</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_pub_sub_dh_0_program_name_applications</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>jspirko</sys_created_by>
+            <sys_created_on>2024-06-28 20:25:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3fb9a9caffc3cad03ca0f6648c4fd965</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_pub_sub_dh_0_program_name_applications</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+            <sys_update_name>sys_ui_form_sections_3fb9a9caffc3cad03ca0f6648c4fd965</sys_update_name>
+            <sys_updated_by>jspirko</sys_updated_by>
+            <sys_updated_on>2024-06-28 20:25:55</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace" name="workspace">532646bec3213110299931ef05013153</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="{Agency} Service Desk Config">6741322fff0302103ca0f6648c4fd9a7</catalog_item>
+        <catalog_variable>IO:b741722fff0302103ca0f6648c4fd955</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:29:29</sys_created_on>
+        <sys_id>d451722fff0302103ca0f6648c4fd9df</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>selected_service</sys_name>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_d451722fff0302103ca0f6648c4fd9df</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-07-04 21:33:34</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'selected_license_or_permit' mandatory &amp; visible depending on 'make_a_selection' &amp; 'make_a_selection'">4c51722fff0302103ca0f6648c4fd9c8</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>selected_service</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</application>
+        <file_path/>
+        <instance_id>76bfb9f61ba9f594fe1b43f4bd4bcb74</instance_id>
+        <instance_name>dsforum</instance_name>
+        <name>catalog_ui_policy_action_d451722fff0302103ca0f6648c4fd9df</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="{Agency} Service Desk Config">6741322fff0302103ca0f6648c4fd9a7</catalog_item><catalog_variable>IO:b741722fff0302103ca0f6648c4fd955</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>jspirko</sys_created_by><sys_created_on>2024-07-03 17:29:29</sys_created_on><sys_id>d451722fff0302103ca0f6648c4fd9df</sys_id><sys_mod_count>1</sys_mod_count><sys_name>selected_service</sys_name><sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package><sys_policy/><sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope><sys_update_name>catalog_ui_policy_action_d451722fff0302103ca0f6648c4fd9df</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2024-07-04 21:33:34</sys_updated_on><table/><ui_policy display_value="Make 'selected_license_or_permit' mandatory &amp; visible depending on 'make_a_selection' &amp; 'make_a_selection'">4c51722fff0302103ca0f6648c4fd9c8</ui_policy><value/><value_action>ignore</value_action><variable>selected_service</variable><variable_set/><visible>true</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1053197731</payload_hash>
+        <record_name>selected_service</record_name>
+        <reverted_from/>
+        <source>f504eafcff5a42103ca0f6648c4fd9dc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-07-04 21:33:35</sys_created_on>
+        <sys_id>6dc27408ffdf42103ca0f6648c4fd934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1907faac0260000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-07-04 21:33:35</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>61c2740867df4210ab784f30dac38034</update_guid>
+        <update_guid_history>61c2740867df4210ab784f30dac38034:1053197731,5451722fc1030210277015edc30ac6e8:-1371598370</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="selected_service">b92ef85cffdbc2103ca0f6648c4fd916</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-07-05 17:01:46</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>119bb720cb394326966443738f9f7c89</sys_id>
+        <sys_metadata>d451722fff0302103ca0f6648c4fd9df</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>selected_service</sys_name>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_scope_delete display_value="">46efe59db52b4c0da8bf7f5e083feb49</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_d451722fff0302103ca0f6648c4fd9df</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_d451722fff0302103ca0f6648c4fd9df">6dc27408ffdf42103ca0f6648c4fd934</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-07-05 17:01:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_search_context_config_search_source">
+    <m2m_search_context_config_search_source action="DELETE">
+        <order>100</order>
+        <search_context_config display_value="{Program Name} DHS Service Desk - Workspace Search">be742a12bf8b42902908df54f4e733f1</search_context_config>
+        <source display_value="{Program Name} DHS Service Desk - x_snc_pub_sub_dh">e884ea12eb8b42905204f635cad0cd27</source>
+        <sys_class_name>m2m_search_context_config_search_source</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-06-29 19:21:42</sys_created_on>
+        <sys_id>45a4ae52eb8b42905204f635cad0cd10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_update_name>m2m_search_context_config_search_source_45a4ae52eb8b42905204f635cad0cd10</sys_update_name>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-06-29 19:21:42</sys_updated_on>
+    </m2m_search_context_config_search_source>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</application>
+        <file_path/>
+        <instance_id>76bfb9f61ba9f594fe1b43f4bd4bcb74</instance_id>
+        <instance_name>dsforum</instance_name>
+        <name>m2m_search_context_config_search_source_45a4ae52eb8b42905204f635cad0cd10</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_search_context_config_search_source"><m2m_search_context_config_search_source action="INSERT_OR_UPDATE"><order>100</order><search_context_config display_value="{Program Name} DHS Service Desk - Workspace Search">be742a12bf8b42902908df54f4e733f1</search_context_config><source display_value="{Program Name} DHS Service Desk - x_snc_pub_sub_dh">e884ea12eb8b42905204f635cad0cd27</source><sys_class_name>m2m_search_context_config_search_source</sys_class_name><sys_created_by>jspirko</sys_created_by><sys_created_on>2024-06-29 19:21:42</sys_created_on><sys_id>45a4ae52eb8b42905204f635cad0cd10</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package><sys_policy/><sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope><sys_update_name>m2m_search_context_config_search_source_45a4ae52eb8b42905204f635cad0cd10</sys_update_name><sys_updated_by>jspirko</sys_updated_by><sys_updated_on>2024-06-29 19:21:42</sys_updated_on></m2m_search_context_config_search_source></record_update>]]></payload>
+        <payload_hash>-1428144509</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>f504eafcff5a42103ca0f6648c4fd9dc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-06-29 19:21:42</sys_created_on>
+        <sys_id>8da4ae52eb8b42905204f635cad0cd12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190657238fe0000001</sys_recorded_at>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-06-29 19:21:42</sys_updated_on>
+        <type>Application Search Sources</type>
+        <update_guid>01a4ae52b18b429039f48a50d3bf3312</update_guid>
+        <update_guid_history>01a4ae52b18b429039f48a50d3bf3312:-1428144509</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">7d503752ebc382905204f635cad0cdfa</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-06-30 00:52:26</sys_created_on>
+        <sys_db_object display_value="" name="m2m_search_context_config_search_source">m2m_search_context_config_search_source</sys_db_object>
+        <sys_id>9787b742a65946e8b67cc0a319bc5c84</sys_id>
+        <sys_metadata>45a4ae52eb8b42905204f635cad0cd10</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_scope_delete display_value="">46efe59db52b4c0da8bf7f5e083feb49</sys_scope_delete>
+        <sys_update_name>m2m_search_context_config_search_source_45a4ae52eb8b42905204f635cad0cd10</sys_update_name>
+        <sys_update_version display_value="m2m_search_context_config_search_source_45a4ae52eb8b42905204f635cad0cd10">8da4ae52eb8b42905204f635cad0cd12</sys_update_version>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-06-30 00:52:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

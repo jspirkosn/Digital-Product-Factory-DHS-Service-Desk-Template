@@ -1,0 +1,2767 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=519041000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>00da58c74d8b4210e48c74a66e9aaa8f</copied_from>
+        <copied_from_name>Create or Modify {Agency} Licens</copied_from_name>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>create_or_modify_agency_services</internal_name>
+        <label_cache>[{"name":"0449ea58-f8a8-4795-b4c1-b6caeda83eb1.make_changes_to_product","label":"1 - Get Catalog Variables➛make_changes_to_product","reference":"","reference_display":"make_changes_to_product","type":"boolean","base_type":"boolean","usedInstances":{"04a1eeed-3f9b-4530-8195-223c980ad904":["condition"]},"attributes":{"catalogType":"1","catalogTypeLabel":"Yes / No"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"0449ea58-f8a8-4795-b4c1-b6caeda83eb1":["requested_item"],"ab4053a8-6932-480a-89f7-541b236dc642":["system_application"]},"attributes":{"default_search_field":"number"}},{"name":"0449ea58-f8a8-4795-b4c1-b6caeda83eb1.make_a_selection","label":"1 - Get Catalog Variables➛make_a_selection","reference":"","reference_display":"make_a_selection","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":100.0},{"label":"Create a new Service Desk Service","value":"create_a_new_service_desk_service","order":100.0},{"label":"Delete an existing Service Desk Service","value":"delete_an_existing_service_desk_service","order":100.0},{"label":"Rename an existing Service Desk Service","value":"rename_an_existing_service_desk_service","order":100.0}],"usedInstances":{"efff2e06-ef64-4d75-9312-b10a0858353c":["condition"]},"attributes":{"catalogType":"3","catalogTypeLabel":"Multiple Choice"}},{"name":"0449ea58-f8a8-4795-b4c1-b6caeda83eb1.name_of_license_or_permit_to_add","label":"1 - Get Catalog Variables➛name_of_license_or_permit_to_add","reference":"","reference_display":"name_of_license_or_permit_to_add","type":"string","base_type":"string","usedInstances":{"0b82409c-ef27-44b9-96df-cc2549ac99bb":["name"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"0b82409c-ef27-44b9-96df-cc2549ac99bb.record.sys_package.name","label":"4 - Create Record➛Service Definition Record➛Package➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_package","column_name":"name","usedInstances":{"9378bb73-e047-4230-ace2-78d13492ccdd":["conditions"],"cd9c0a41-a3f6-4577-9edf-06f577872327":["name"]}},{"name":"9378bb73-e047-4230-ace2-78d13492ccdd.status","label":"8 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"usedInstances":{"6a6f90db-1fdf-490c-b420-5e0eb77dcd92":["condition"]},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"cd9c0a41-a3f6-4577-9edf-06f577872327.record","label":"10 - Create Record➛Permit model Record","reference":"sn_ent_permit_model","reference_display":"Permit model","type":"reference","base_type":"reference","usedInstances":{"033a91ab-e718-4fd3-9ffc-ac019492ff91":["product"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0b82409c-ef27-44b9-96df-cc2549ac99bb.record","label":"4 - Create Record➛Service Definition Record","reference":"sn_case_type_selection","reference_display":"Service Definition","type":"reference","base_type":"reference","usedInstances":{"033a91ab-e718-4fd3-9ffc-ac019492ff91":["service"],"3f18b54b-f752-4a63-b9a7-a18b12441aaa":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0b82409c-ef27-44b9-96df-cc2549ac99bb.record.sys_package","label":"4 - Create Record➛Service Definition Record➛Package","reference":"sys_package","reference_display":"Package","type":"reference","base_type":"reference","parent_table_name":"sn_case_type_selection","column_name":"sys_package","usedInstances":{"30156f0f-20bf-42c5-a8a9-59e915a6631d":["conditions"]}},{"name":"30156f0f-20bf-42c5-a8a9-59e915a6631d.Table","label":"5 - Look Up Record➛Table Table","reference":"sys_db_object","reference_display":"Table","type":"table_name","base_type":"table_name","usedInstances":{"3f18b54b-f752-4a63-b9a7-a18b12441aaa":["table"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","filter_table_source":"v_cluster_transaction"}},{"name":"30156f0f-20bf-42c5-a8a9-59e915a6631d.status","label":"5 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"usedInstances":{"731e4143-68cb-43ea-bf53-36815446fd23":["condition"]},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"30156f0f-20bf-42c5-a8a9-59e915a6631d.Record.name","label":"5 - Look Up Record➛Table Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_db_object","column_name":"name","usedInstances":{"3f18b54b-f752-4a63-b9a7-a18b12441aaa":["table"]}},{"name":"0449ea58-f8a8-4795-b4c1-b6caeda83eb1.new_service_type","label":"1 - Get Catalog Variables➛new_service_type","reference":"","reference_display":"new_service_type","type":"choice","base_type":"choice","choices":[{"label":"Submit a new Social Benefit Application","value":"social_benefit_application","order":100.0},{"label":"Ask a questions about Social Benefits in Your Product","value":"social_benefit_application_question","order":100.0},{"label":"Dispute a Claim for Social Benefits in Your Product ","value":"dispute_claim","order":100.0},{"label":"Report an Interruption to a Service Offered in Your Product ","value":"report_an_interruption_to_a","order":100.0},{"label":"Request an Enhancement for a Service Offered in Your Product","value":"request_an_enhancement_for_a_service_offered_in_your_product","order":100.0},{"label":"Submit a New Idea for a New Service to be Added","value":"submit_a_new_idea_for_a_new_service_to_be_added","order":100.0}],"usedInstances":{"3f88d119-6b36-4ebd-8c4c-8d1f7c27d336":["condition"]},"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"0449ea58-f8a8-4795-b4c1-b6caeda83eb1.new_product_name","label":"1 - Get Catalog Variables➛new_product_name","reference":"","reference_display":"new_product_name","type":"string","base_type":"string","usedInstances":{"ab4053a8-6932-480a-89f7-541b236dc642":["new_product_name"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"0449ea58-f8a8-4795-b4c1-b6caeda83eb1.new_product_description","label":"1 - Get Catalog Variables➛new_product_description","reference":"","reference_display":"new_product_description","type":"string","base_type":"string","usedInstances":{"ab4053a8-6932-480a-89f7-541b236dc642":["new_product_description"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"0449ea58-f8a8-4795-b4c1-b6caeda83eb1.delivery_root_dir","label":"1 - Get Catalog Variables➛delivery_root_dir","reference":"sc_category","reference_display":"Category","type":"reference","base_type":"reference","usedInstances":{"ab4053a8-6932-480a-89f7-541b236dc642":["delivery_root_category"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"0449ea58-f8a8-4795-b4c1-b6caeda83eb1.product_model_table","label":"1 - Get Catalog Variables➛product_model_table","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"ab4053a8-6932-480a-89f7-541b236dc642":["product_model_table"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"Service Catalog_1.request_item.cat_item.sys_scope","label":"Trigger - Service Catalog➛Requested Item Record➛Item➛Application","reference":"sys_scope","reference_display":"Application","type":"reference","base_type":"reference","parent_table_name":"sc_cat_item","column_name":"sys_scope","usedInstances":{"ab4053a8-6932-480a-89f7-541b236dc642":["system_application"]}}]</label_cache>
+        <master_snapshot>e39be40cff9f42103ca0f6648c4fd9e0</master_snapshot>
+        <name>Create or Modify {program name} Services</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>94ab680cff9f42103ca0f6648c4fd908</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c5d63e67ff4302103ca0f6648c4fd941</sys_id>
+        <sys_mod_count>40</sys_mod_count>
+        <sys_name>Create or Modify {program name} Services</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_update_name>sys_hub_flow_c5d63e67ff4302103ca0f6648c4fd941</sys_update_name>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:24</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=c5d63e67ff4302103ca0f6648c4fd941"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c5d63e67ff4302103ca0f6648c4fd941"/>
+    <sys_flow_catalog_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <catalog_item/>
+        <name/>
+        <run_flow_in/>
+        <sys_class_name>sys_flow_catalog_trigger</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>94ab680cff9f42103ca0f6648c4fd908</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-05 22:34:31</sys_updated_on>
+    </sys_flow_catalog_trigger>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=c5d63e67ff4302103ca0f6648c4fd941"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=c5d63e67ff4302103ca0f6648c4fd941^sys_idNOT IN1dd63e67ff4302103ca0f6648c4fd99c"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Create or Modify {program name} Services">c5d63e67ff4302103ca0f6648c4fd941</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:36</sys_created_on>
+        <sys_id>1dd63e67ff4302103ca0f6648c4fd99c</sys_id>
+        <sys_mod_count>38</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:23</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1dd63e67ff4302103ca0f6648c4fd99c"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=c5d63e67ff4302103ca0f6648c4fd941"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=c5d63e67ff4302103ca0f6648c4fd941^sys_idNOT IN09d63e67ff4302103ca0f6648c4fd942"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>c5d63e67ff4302103ca0f6648c4fd941</id>
+        <name>Create or Modify {Agency} Services</name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:34</sys_created_on>
+        <sys_id>09d63e67ff4302103ca0f6648c4fd942</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-03 17:53:34</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=09d63e67ff4302103ca0f6648c4fd942"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=c5d63e67ff4302103ca0f6648c4fd941^sys_idNOT IN45d63e67ff4302103ca0f6648c4fd94e,89d63e67ff4302103ca0f6648c4fd949"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Create or Modify {program name} Services">c5d63e67ff4302103ca0f6648c4fd941</model>
+        <model_id>c5d63e67ff4302103ca0f6648c4fd941</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_c5d63e67ff4302103ca0f6648c4fd941</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:34</sys_created_on>
+        <sys_id>45d63e67ff4302103ca0f6648c4fd94e</sys_id>
+        <sys_mod_count>75</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=45d63e67ff4302103ca0f6648c4fd94e"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create or Modify {program name} Services">c5d63e67ff4302103ca0f6648c4fd941</model>
+        <model_id>c5d63e67ff4302103ca0f6648c4fd941</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_c5d63e67ff4302103ca0f6648c4fd941</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:34</sys_created_on>
+        <sys_id>89d63e67ff4302103ca0f6648c4fd949</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=89d63e67ff4302103ca0f6648c4fd949"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=c5d63e67ff4302103ca0f6648c4fd941"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c5d63e67ff4302103ca0f6648c4fd941"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=c5d63e67ff4302103ca0f6648c4fd941^sys_idNOT IN15d63e67ff4302103ca0f6648c4fd98f,19d63e67ff4302103ca0f6648c4fd988,51d63e67ff4302103ca0f6648c4fd99b,5dd63e67ff4302103ca0f6648c4fd97e,91d63e67ff4302103ca0f6648c4fd96e,91d63e67ff4302103ca0f6648c4fd995,95d63e67ff4302103ca0f6648c4fd966,ddd63e67ff4302103ca0f6648c4fd977"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create or Modify {program name} Services">c5d63e67ff4302103ca0f6648c4fd941</flow>
+        <generation_source/>
+        <order>10</order>
+        <parent_ui_id>6a6f90db-1fdf-490c-b420-5e0eb77dcd92</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>15d63e67ff4302103ca0f6648c4fd98f</sys_id>
+        <sys_mod_count>78</sys_mod_count>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:23</sys_updated_on>
+        <ui_id>cd9c0a41-a3f6-4577-9edf-06f577872327</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=15d63e67ff4302103ca0f6648c4fd98f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>15d63e67ff4302103ca0f6648c4fd98f</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>19d63e67ff4302103ca0f6648c4fd990</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-03 17:53:35</sys_updated_on>
+        <value>sn_ent_permit_model</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=15d63e67ff4302103ca0f6648c4fd98f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>15d63e67ff4302103ca0f6648c4fd98f</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>d1d63e67ff4302103ca0f6648c4fd990</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-03 17:53:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>15d63e67ff4302103ca0f6648c4fd98f</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>95d63e67ff4302103ca0f6648c4fd990</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-03 17:53:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>name={{0b82409c-ef27-44b9-96df-cc2549ac99bb.record.sys_package.name}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=15d63e67ff4302103ca0f6648c4fd98f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=15d63e67ff4302103ca0f6648c4fd98f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create or Modify {program name} Services">c5d63e67ff4302103ca0f6648c4fd941</flow>
+        <generation_source/>
+        <order>8</order>
+        <parent_ui_id>efff2e06-ef64-4d75-9312-b10a0858353c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>19d63e67ff4302103ca0f6648c4fd988</sys_id>
+        <sys_mod_count>78</sys_mod_count>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:23</sys_updated_on>
+        <ui_id>9378bb73-e047-4230-ace2-78d13492ccdd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=19d63e67ff4302103ca0f6648c4fd988"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>19d63e67ff4302103ca0f6648c4fd988</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>99d63e67ff4302103ca0f6648c4fd98a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-03 17:53:35</sys_updated_on>
+        <value>sn_ent_permit_model</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>19d63e67ff4302103ca0f6648c4fd988</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>d5d63e67ff4302103ca0f6648c4fd98a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-03 17:53:35</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Don't fail on error">ceab42a673110010d70877186bf6a74f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=19d63e67ff4302103ca0f6648c4fd988"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>19d63e67ff4302103ca0f6648c4fd988</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>91d63e67ff4302103ca0f6648c4fd98a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-03 17:53:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>name={{0b82409c-ef27-44b9-96df-cc2549ac99bb.record.sys_package.name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>19d63e67ff4302103ca0f6648c4fd988</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>55d63e67ff4302103ca0f6648c4fd98a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-03 17:53:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__snc_dont_fail_on_error</field>
+        <id>19d63e67ff4302103ca0f6648c4fd988</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>ddd63e67ff4302103ca0f6648c4fd989</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-03 17:53:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=19d63e67ff4302103ca0f6648c4fd988"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=19d63e67ff4302103ca0f6648c4fd988"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create or Modify {program name} Services">c5d63e67ff4302103ca0f6648c4fd941</flow>
+        <generation_source/>
+        <order>12</order>
+        <parent_ui_id>efff2e06-ef64-4d75-9312-b10a0858353c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:36</sys_created_on>
+        <sys_id>51d63e67ff4302103ca0f6648c4fd99b</sys_id>
+        <sys_mod_count>78</sys_mod_count>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:23</sys_updated_on>
+        <ui_id>868c3074-e297-4de6-8c13-0b9676cc2908</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=51d63e67ff4302103ca0f6648c4fd99b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>51d63e67ff4302103ca0f6648c4fd99b</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:36</sys_created_on>
+        <sys_id>19d63e67ff4302103ca0f6648c4fd99c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-03 17:53:36</sys_updated_on>
+        <value>sn_case_type_selection</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>51d63e67ff4302103ca0f6648c4fd99b</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:36</sys_created_on>
+        <sys_id>55d63e67ff4302103ca0f6648c4fd99c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-03 17:53:36</sys_updated_on>
+        <value>name=1234^table=x_snc_license_pe_1_agency_licenses_and_permits^service_type=3</value>
+        <variable display_value="Fields">6de09916c31332002841b63b12d3ae1b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1^id=51d63e67ff4302103ca0f6648c4fd99b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=51d63e67ff4302103ca0f6648c4fd99b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=51d63e67ff4302103ca0f6648c4fd99b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create or Modify {program name} Services">c5d63e67ff4302103ca0f6648c4fd941</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>731e4143-68cb-43ea-bf53-36815446fd23</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>5dd63e67ff4302103ca0f6648c4fd97e</sys_id>
+        <sys_mod_count>78</sys_mod_count>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:23</sys_updated_on>
+        <ui_id>3f18b54b-f752-4a63-b9a7-a18b12441aaa</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5dd63e67ff4302103ca0f6648c4fd97e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5dd63e67ff4302103ca0f6648c4fd97e</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>99d63e67ff4302103ca0f6648c4fd980</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-03 17:53:35</sys_updated_on>
+        <value>sn_case_type_selection</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5dd63e67ff4302103ca0f6648c4fd97e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>5dd63e67ff4302103ca0f6648c4fd97e</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>19d63e67ff4302103ca0f6648c4fd980</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-03 17:53:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{0b82409c-ef27-44b9-96df-cc2549ac99bb.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>5dd63e67ff4302103ca0f6648c4fd97e</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>91d63e67ff4302103ca0f6648c4fd980</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-03 17:53:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>5dd63e67ff4302103ca0f6648c4fd97e</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>55d63e67ff4302103ca0f6648c4fd980</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-03 17:53:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>table={{30156f0f-20bf-42c5-a8a9-59e915a6631d.Record.name}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5dd63e67ff4302103ca0f6648c4fd97e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5dd63e67ff4302103ca0f6648c4fd97e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create or Modify {program name} Services">c5d63e67ff4302103ca0f6648c4fd941</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>3f88d119-6b36-4ebd-8c4c-8d1f7c27d336</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>91d63e67ff4302103ca0f6648c4fd96e</sys_id>
+        <sys_mod_count>78</sys_mod_count>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:23</sys_updated_on>
+        <ui_id>0b82409c-ef27-44b9-96df-cc2549ac99bb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=91d63e67ff4302103ca0f6648c4fd96e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>91d63e67ff4302103ca0f6648c4fd96e</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>51d63e67ff4302103ca0f6648c4fd970</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-03 17:53:35</sys_updated_on>
+        <value>sn_case_type_selection</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>91d63e67ff4302103ca0f6648c4fd96e</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-05 18:47:14</sys_created_on>
+        <sys_id>b6465194ff9fc2103ca0f6648c4fd9b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-05 18:47:14</sys_updated_on>
+        <value>name=^id=fd-scripted</value>
+        <variable display_value="Fields">6de09916c31332002841b63b12d3ae1b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1^id=91d63e67ff4302103ca0f6648c4fd96e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=91d63e67ff4302103ca0f6648c4fd96e^sys_idNOT IN11d63e67ff4302103ca0f6648c4fd96f"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>values</input_name>
+        <instance>91d63e67ff4302103ca0f6648c4fd96e</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"id":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nvar sdName \u003d fd_data._1__get_catalog_variables.name_of_service_to_add;\nreturn sdName.toLowerCase().replace(/\\s/g, \u0027_\u0027);","savedValue":""}}</script>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>11d63e67ff4302103ca0f6648c4fd96f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-05 18:47:14</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=91d63e67ff4302103ca0f6648c4fd96e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create or Modify {program name} Services">c5d63e67ff4302103ca0f6648c4fd941</flow>
+        <generation_source/>
+        <order>11</order>
+        <parent_ui_id>6a6f90db-1fdf-490c-b420-5e0eb77dcd92</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>91d63e67ff4302103ca0f6648c4fd995</sys_id>
+        <sys_mod_count>78</sys_mod_count>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:23</sys_updated_on>
+        <ui_id>033a91ab-e718-4fd3-9ffc-ac019492ff91</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=91d63e67ff4302103ca0f6648c4fd995"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>91d63e67ff4302103ca0f6648c4fd995</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>95d63e67ff4302103ca0f6648c4fd996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-03 17:53:35</sys_updated_on>
+        <value>sn_csm_case_types_product_service_rel</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=91d63e67ff4302103ca0f6648c4fd995"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>91d63e67ff4302103ca0f6648c4fd995</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>51d63e67ff4302103ca0f6648c4fd996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-03 17:53:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>91d63e67ff4302103ca0f6648c4fd995</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>15d63e67ff4302103ca0f6648c4fd996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-03 17:53:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>product={{cd9c0a41-a3f6-4577-9edf-06f577872327.record}}^service={{0b82409c-ef27-44b9-96df-cc2549ac99bb.record}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=91d63e67ff4302103ca0f6648c4fd995"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=91d63e67ff4302103ca0f6648c4fd995"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create or Modify {program name} Services">c5d63e67ff4302103ca0f6648c4fd941</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>95d63e67ff4302103ca0f6648c4fd966</sys_id>
+        <sys_mod_count>80</sys_mod_count>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:23</sys_updated_on>
+        <ui_id>0449ea58-f8a8-4795-b4c1-b6caeda83eb1</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=95d63e67ff4302103ca0f6648c4fd966"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>95d63e67ff4302103ca0f6648c4fd966</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>95d63e67ff4302103ca0f6648c4fd969</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-05 18:47:14</sys_updated_on>
+        <value>6741322fff0302103ca0f6648c4fd9a7</value>
+        <variable display_value="Template Catalog Items and Variable Sets">bb0ba3abc31013002841b63b12d3aef1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>95d63e67ff4302103ca0f6648c4fd966</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>9dd63e67ff4302103ca0f6648c4fd968</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-08 02:06:56</sys_updated_on>
+        <value>e6b00590ff1fc2103ca0f6648c4fd90f:item_option_new,2b41722fff0302103ca0f6648c4fd914:item_option_new,b741722fff0302103ca0f6648c4fd987:item_option_new,bb41722fff0302103ca0f6648c4fd961:item_option_new,f341722fff0302103ca0f6648c4fd96e:item_option_new,7b41722fff0302103ca0f6648c4fd949:item_option_new,b741722fff0302103ca0f6648c4fd955:item_option_new,bce84510ff5fc2103ca0f6648c4fd9e1:item_option_new,0e8b8514ff5fc2103ca0f6648c4fd9f8:item_option_new,8ab72cc9ffdb0a103ca0f6648c4fd96f:item_option_new,2e8849c1ff534a103ca0f6648c4fd94a:item_option_new</value>
+        <variable display_value="Catalog Variables">7b0ba3abc31013002841b63b12d3aef7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=95d63e67ff4302103ca0f6648c4fd966"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>95d63e67ff4302103ca0f6648c4fd966</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>95d63e67ff4302103ca0f6648c4fd968</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-03 17:53:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requested_item</field>
+        <id>95d63e67ff4302103ca0f6648c4fd966</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>1dd63e67ff4302103ca0f6648c4fd968</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-03 17:53:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>95d63e67ff4302103ca0f6648c4fd966</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>59d63e67ff4302103ca0f6648c4fd968</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-03 17:53:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=95d63e67ff4302103ca0f6648c4fd966"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=95d63e67ff4302103ca0f6648c4fd966"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create or Modify {program name} Services">c5d63e67ff4302103ca0f6648c4fd941</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>3f88d119-6b36-4ebd-8c4c-8d1f7c27d336</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>ddd63e67ff4302103ca0f6648c4fd977</sys_id>
+        <sys_mod_count>78</sys_mod_count>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:23</sys_updated_on>
+        <ui_id>30156f0f-20bf-42c5-a8a9-59e915a6631d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ddd63e67ff4302103ca0f6648c4fd977"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ddd63e67ff4302103ca0f6648c4fd977</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-05 18:47:14</sys_created_on>
+        <sys_id>36465194ff9fc2103ca0f6648c4fd9b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-05 18:47:14</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Don't fail on error">ceab42a673110010d70877186bf6a74f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ddd63e67ff4302103ca0f6648c4fd977</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>ddd63e67ff4302103ca0f6648c4fd979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-03 17:53:35</sys_updated_on>
+        <value>sys_db_object</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ddd63e67ff4302103ca0f6648c4fd977"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>ddd63e67ff4302103ca0f6648c4fd977</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>99d63e67ff4302103ca0f6648c4fd979</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-05 18:47:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>sys_scope={{0b82409c-ef27-44b9-96df-cc2549ac99bb.record.sys_package}}^super_class=a1d2bf97ffda42503ca0f6648c4fd9b1</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>ddd63e67ff4302103ca0f6648c4fd977</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>5dd63e67ff4302103ca0f6648c4fd979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-03 17:53:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__snc_dont_fail_on_error</field>
+        <id>ddd63e67ff4302103ca0f6648c4fd977</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-05 18:47:14</sys_created_on>
+        <sys_id>fe465194ff9fc2103ca0f6648c4fd9b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-05 18:47:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ddd63e67ff4302103ca0f6648c4fd977"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ddd63e67ff4302103ca0f6648c4fd977"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=c5d63e67ff4302103ca0f6648c4fd941^sys_idNOT IN67df0e18ff1706103ca0f6648c4fd9fe"/>
+    <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create or Modify {program name} Services">c5d63e67ff4302103ca0f6648c4fd941</flow>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <order>14</order>
+        <parent_ui_id>04a1eeed-3f9b-4530-8195-223c980ad904</parent_ui_id>
+        <subflow display_value="Configure Support and Delivery Models">34188658ffd306103ca0f6648c4fd9d9</subflow>
+        <subflow_instance_inputs/>
+        <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-05 22:58:47</sys_created_on>
+        <sys_id>67df0e18ff1706103ca0f6648c4fd9fe</sys_id>
+        <sys_mod_count>38</sys_mod_count>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:24</sys_updated_on>
+        <ui_id>ab4053a8-6932-480a-89f7-541b236dc642</ui_id>
+    </sys_hub_sub_flow_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=67df0e18ff1706103ca0f6648c4fd9fe"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>67df0e18ff1706103ca0f6648c4fd9fe</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-05 22:58:48</sys_created_on>
+        <sys_id>a7df4e18ff1706103ca0f6648c4fd924</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-05 23:36:28</sys_updated_on>
+        <value/>
+        <variable display_value="New Product Description">d118c658ffd306103ca0f6648c4fd956</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>67df0e18ff1706103ca0f6648c4fd9fe</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-05 22:58:48</sys_created_on>
+        <sys_id>e3df4e18ff1706103ca0f6648c4fd924</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-05 23:36:28</sys_updated_on>
+        <value/>
+        <variable display_value="New Product Name">0d18c658ffd306103ca0f6648c4fd94d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>67df0e18ff1706103ca0f6648c4fd9fe</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-05 22:58:48</sys_created_on>
+        <sys_id>ebdf4e18ff1706103ca0f6648c4fd923</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:15</sys_updated_on>
+        <value/>
+        <variable display_value="System Application">8518c658ffd306103ca0f6648c4fd915</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=67df0e18ff1706103ca0f6648c4fd9fe"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>delivery_root_category</field>
+        <id>67df0e18ff1706103ca0f6648c4fd9fe</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-08 02:06:57</sys_created_on>
+        <sys_id>1b1e4d0dff534a103ca0f6648c4fd9d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-08 02:06:57</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_34188658ffd306103ca0f6648c4fd9d9</table>
+        <value>{{0449ea58-f8a8-4795-b4c1-b6caeda83eb1.delivery_root_dir}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>new_product_description</field>
+        <id>67df0e18ff1706103ca0f6648c4fd9fe</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-05 22:58:48</sys_created_on>
+        <sys_id>6bdf4e18ff1706103ca0f6648c4fd923</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-05 23:36:28</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_34188658ffd306103ca0f6648c4fd9d9</table>
+        <value>{{0449ea58-f8a8-4795-b4c1-b6caeda83eb1.new_product_description}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>new_product_name</field>
+        <id>67df0e18ff1706103ca0f6648c4fd9fe</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-05 22:58:48</sys_created_on>
+        <sys_id>a7df4e18ff1706103ca0f6648c4fd923</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-05 23:36:28</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_34188658ffd306103ca0f6648c4fd9d9</table>
+        <value>{{0449ea58-f8a8-4795-b4c1-b6caeda83eb1.new_product_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>product_model_table</field>
+        <id>67df0e18ff1706103ca0f6648c4fd9fe</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-08 02:06:57</sys_created_on>
+        <sys_id>df1e4d0dff534a103ca0f6648c4fd9d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-08 02:06:57</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_34188658ffd306103ca0f6648c4fd9d9</table>
+        <value>{{0449ea58-f8a8-4795-b4c1-b6caeda83eb1.product_model_table}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>system_application</field>
+        <id>67df0e18ff1706103ca0f6648c4fd9fe</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-05 22:58:48</sys_created_on>
+        <sys_id>efdf4e18ff1706103ca0f6648c4fd922</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:15</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_34188658ffd306103ca0f6648c4fd9d9</table>
+        <value>{{Service Catalog_1.request_item.cat_item.sys_scope}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>wait_for_completion</field>
+        <id>67df0e18ff1706103ca0f6648c4fd9fe</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-05 22:58:48</sys_created_on>
+        <sys_id>a3df4e18ff1706103ca0f6648c4fd925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-05 22:58:48</sys_updated_on>
+        <table>var__m_sys_hub_sub_flow_instance_inputs_67df0e18ff1706103ca0f6648c4fd9fe</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_sub_flow_instance_inputs action="delete_multiple" query="model=67df0e18ff1706103ca0f6648c4fd9fe^sys_idNOT IN1a4912dc805f0610ed32dfc465cf313d"/>
+    <sys_hub_sub_flow_instance_inputs action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,fd_hide_inline_script_widget=true,uiType=boolean</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>wait_for_completion</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Wait For Completion</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="">67df0e18ff1706103ca0f6648c4fd9fe</model>
+        <model_id>67df0e18ff1706103ca0f6648c4fd9fe</model_id>
+        <model_table>sys_hub_flow_logic_ext_input</model_table>
+        <name>var__m_sys_hub_sub_flow_instance_inputs_9e4912dcbc5f0610855a632217ff773d</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_sub_flow_instance_inputs</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-05 23:40:06</sys_created_on>
+        <sys_id>1a4912dc805f0610ed32dfc465cf313d</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="">ce49de9cc25f0610cd498889220766c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_sub_flow_instance_inputs>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=67df0e18ff1706103ca0f6648c4fd9fe^sys_idNOT IN4aaedadcff9706103ca0f6648c4fd9d7"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>system_application</input_name>
+        <instance>67df0e18ff1706103ca0f6648c4fd9fe</instance>
+        <referenced_table>sys_hub_sub_flow_instance</referenced_table>
+        <script>{"system_application":{"scriptActive":false,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nreturn gs.getCurrentApplicationId();\n//var gr \u003d new GlideRecord(\u0027sys_app\u0027);\n\n//gr.get(currentApp);"}}</script>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-06 00:03:24</sys_created_on>
+        <sys_id>4aaedadcff9706103ca0f6648c4fd9d7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:15</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=c5d63e67ff4302103ca0f6648c4fd941^sys_idNOT IN05d63e67ff4302103ca0f6648c4fd95c,8dd63e67ff4302103ca0f6648c4fd957,ced8ce98ffd306103ca0f6648c4fd976,d5d63e67ff4302103ca0f6648c4fd95f,e6465194ff9fc2103ca0f6648c4fd9b0"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">0dd63e67ff4302103ca0f6648c4fd95b</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create or Modify {program name} Services">c5d63e67ff4302103ca0f6648c4fd941</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>3f88d119-6b36-4ebd-8c4c-8d1f7c27d336</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>05d63e67ff4302103ca0f6648c4fd95c</sys_id>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:23</sys_updated_on>
+        <ui_id>731e4143-68cb-43ea-bf53-36815446fd23</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=05d63e67ff4302103ca0f6648c4fd95c"/>
+    <sys_element_mapping action="delete_multiple" query="id=05d63e67ff4302103ca0f6648c4fd95c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>05d63e67ff4302103ca0f6648c4fd95c</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>c9d63e67ff4302103ca0f6648c4fd95e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-03 17:53:35</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{30156f0f-20bf-42c5-a8a9-59e915a6631d.status}}=0</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=05d63e67ff4302103ca0f6648c4fd95c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=05d63e67ff4302103ca0f6648c4fd95c"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">41d63e67ff4302103ca0f6648c4fd957</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create or Modify {program name} Services">c5d63e67ff4302103ca0f6648c4fd941</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>8dd63e67ff4302103ca0f6648c4fd957</sys_id>
+        <sys_mod_count>41</sys_mod_count>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:23</sys_updated_on>
+        <ui_id>efff2e06-ef64-4d75-9312-b10a0858353c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=8dd63e67ff4302103ca0f6648c4fd957"/>
+    <sys_element_mapping action="delete_multiple" query="id=8dd63e67ff4302103ca0f6648c4fd957"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>8dd63e67ff4302103ca0f6648c4fd957</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>01d63e67ff4302103ca0f6648c4fd95b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-05 18:47:14</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{0449ea58-f8a8-4795-b4c1-b6caeda83eb1.make_a_selection}}=create_a_new_service_desk_service</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=8dd63e67ff4302103ca0f6648c4fd957"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8dd63e67ff4302103ca0f6648c4fd957"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">c2d8ce98ffd306103ca0f6648c4fd976</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create or Modify {program name} Services">c5d63e67ff4302103ca0f6648c4fd941</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>13</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-05 22:28:06</sys_created_on>
+        <sys_id>ced8ce98ffd306103ca0f6648c4fd976</sys_id>
+        <sys_mod_count>36</sys_mod_count>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:23</sys_updated_on>
+        <ui_id>04a1eeed-3f9b-4530-8195-223c980ad904</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ced8ce98ffd306103ca0f6648c4fd976"/>
+    <sys_element_mapping action="delete_multiple" query="id=ced8ce98ffd306103ca0f6648c4fd976"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>ced8ce98ffd306103ca0f6648c4fd976</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-05 22:28:06</sys_created_on>
+        <sys_id>8ad8ce98ffd306103ca0f6648c4fd979</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-07 21:49:33</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{0449ea58-f8a8-4795-b4c1-b6caeda83eb1.make_changes_to_product}}=yes</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ced8ce98ffd306103ca0f6648c4fd976"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ced8ce98ffd306103ca0f6648c4fd976"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">cdd63e67ff4302103ca0f6648c4fd95e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create or Modify {program name} Services">c5d63e67ff4302103ca0f6648c4fd941</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>9</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>efff2e06-ef64-4d75-9312-b10a0858353c</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>d5d63e67ff4302103ca0f6648c4fd95f</sys_id>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:23</sys_updated_on>
+        <ui_id>6a6f90db-1fdf-490c-b420-5e0eb77dcd92</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=d5d63e67ff4302103ca0f6648c4fd95f"/>
+    <sys_element_mapping action="delete_multiple" query="id=d5d63e67ff4302103ca0f6648c4fd95f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>d5d63e67ff4302103ca0f6648c4fd95f</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>9dd63e67ff4302103ca0f6648c4fd961</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-03 17:53:35</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{9378bb73-e047-4230-ace2-78d13492ccdd.status}}=1</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=d5d63e67ff4302103ca0f6648c4fd95f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d5d63e67ff4302103ca0f6648c4fd95f"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">aa465194ff9fc2103ca0f6648c4fd9af</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create or Modify {program name} Services">c5d63e67ff4302103ca0f6648c4fd941</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>efff2e06-ef64-4d75-9312-b10a0858353c</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-05 18:47:14</sys_created_on>
+        <sys_id>e6465194ff9fc2103ca0f6648c4fd9b0</sys_id>
+        <sys_mod_count>37</sys_mod_count>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:23</sys_updated_on>
+        <ui_id>3f88d119-6b36-4ebd-8c4c-8d1f7c27d336</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e6465194ff9fc2103ca0f6648c4fd9b0"/>
+    <sys_element_mapping action="delete_multiple" query="id=e6465194ff9fc2103ca0f6648c4fd9b0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>e6465194ff9fc2103ca0f6648c4fd9b0</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-05 18:47:14</sys_created_on>
+        <sys_id>be465194ff9fc2103ca0f6648c4fd9b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-05 18:47:14</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{0449ea58-f8a8-4795-b4c1-b6caeda83eb1.new_service_type}}=social_benefit_application^NQ{{0449ea58-f8a8-4795-b4c1-b6caeda83eb1.new_service_type}}=social_benefit_application_question^NQ{{0449ea58-f8a8-4795-b4c1-b6caeda83eb1.new_service_type}}=dispute_claim</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=e6465194ff9fc2103ca0f6648c4fd9b0"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e6465194ff9fc2103ca0f6648c4fd9b0"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=c5d63e67ff4302103ca0f6648c4fd941"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=c5d63e67ff4302103ca0f6648c4fd941"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_c5d63e67ff4302103ca0f6648c4fd941^sys_idNOT IN45d63e67ff4302103ca0f6648c4fd94d,81d63e67ff4302103ca0f6648c4fd953"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_c5d63e67ff4302103ca0f6648c4fd941</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:34</sys_created_on>
+        <sys_id>45d63e67ff4302103ca0f6648c4fd94d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-03 17:53:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_c5d63e67ff4302103ca0f6648c4fd941</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:53:35</sys_created_on>
+        <sys_id>81d63e67ff4302103ca0f6648c4fd953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-03 17:53:35</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_c5d63e67ff4302103ca0f6648c4fd941"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_c5d63e67ff4302103ca0f6648c4fd941"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_c5d63e67ff4302103ca0f6648c4fd941"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=328943000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>00da58c74d8b4210e48c74a66e9aaa8f</copied_from>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <internal_name>create_or_modify_agency_services</internal_name>
+        <label_cache>[{"name":"0449ea58-f8a8-4795-b4c1-b6caeda83eb1.make_changes_to_product","label":"1 - Get Catalog Variables➛make_changes_to_product","reference":"","reference_display":"make_changes_to_product","type":"boolean","base_type":"boolean","usedInstances":{"04a1eeed-3f9b-4530-8195-223c980ad904":["condition"]},"attributes":{"catalogType":"1","catalogTypeLabel":"Yes / No"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"0449ea58-f8a8-4795-b4c1-b6caeda83eb1":["requested_item"],"ab4053a8-6932-480a-89f7-541b236dc642":["system_application"]},"attributes":{"default_search_field":"number"}},{"name":"0449ea58-f8a8-4795-b4c1-b6caeda83eb1.make_a_selection","label":"1 - Get Catalog Variables➛make_a_selection","reference":"","reference_display":"make_a_selection","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":100.0},{"label":"Create a new Service Desk Service","value":"create_a_new_service_desk_service","order":100.0},{"label":"Delete an existing Service Desk Service","value":"delete_an_existing_service_desk_service","order":100.0},{"label":"Rename an existing Service Desk Service","value":"rename_an_existing_service_desk_service","order":100.0}],"usedInstances":{"efff2e06-ef64-4d75-9312-b10a0858353c":["condition"]},"attributes":{"catalogType":"3","catalogTypeLabel":"Multiple Choice"}},{"name":"0449ea58-f8a8-4795-b4c1-b6caeda83eb1.name_of_license_or_permit_to_add","label":"1 - Get Catalog Variables➛name_of_license_or_permit_to_add","reference":"","reference_display":"name_of_license_or_permit_to_add","type":"string","base_type":"string","usedInstances":{"0b82409c-ef27-44b9-96df-cc2549ac99bb":["name"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"0b82409c-ef27-44b9-96df-cc2549ac99bb.record.sys_package.name","label":"4 - Create Record➛Service Definition Record➛Package➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_package","column_name":"name","usedInstances":{"9378bb73-e047-4230-ace2-78d13492ccdd":["conditions"],"cd9c0a41-a3f6-4577-9edf-06f577872327":["name"]}},{"name":"9378bb73-e047-4230-ace2-78d13492ccdd.status","label":"8 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"usedInstances":{"6a6f90db-1fdf-490c-b420-5e0eb77dcd92":["condition"]},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"cd9c0a41-a3f6-4577-9edf-06f577872327.record","label":"10 - Create Record➛Permit model Record","reference":"sn_ent_permit_model","reference_display":"Permit model","type":"reference","base_type":"reference","usedInstances":{"033a91ab-e718-4fd3-9ffc-ac019492ff91":["product"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0b82409c-ef27-44b9-96df-cc2549ac99bb.record","label":"4 - Create Record➛Service Definition Record","reference":"sn_case_type_selection","reference_display":"Service Definition","type":"reference","base_type":"reference","usedInstances":{"033a91ab-e718-4fd3-9ffc-ac019492ff91":["service"],"3f18b54b-f752-4a63-b9a7-a18b12441aaa":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0b82409c-ef27-44b9-96df-cc2549ac99bb.record.sys_package","label":"4 - Create Record➛Service Definition Record➛Package","reference":"sys_package","reference_display":"Package","type":"reference","base_type":"reference","parent_table_name":"sn_case_type_selection","column_name":"sys_package","usedInstances":{"30156f0f-20bf-42c5-a8a9-59e915a6631d":["conditions"]}},{"name":"30156f0f-20bf-42c5-a8a9-59e915a6631d.Table","label":"5 - Look Up Record➛Table Table","reference":"sys_db_object","reference_display":"Table","type":"table_name","base_type":"table_name","usedInstances":{"3f18b54b-f752-4a63-b9a7-a18b12441aaa":["table"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","filter_table_source":"v_cluster_transaction"}},{"name":"30156f0f-20bf-42c5-a8a9-59e915a6631d.status","label":"5 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"usedInstances":{"731e4143-68cb-43ea-bf53-36815446fd23":["condition"]},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"30156f0f-20bf-42c5-a8a9-59e915a6631d.Record.name","label":"5 - Look Up Record➛Table Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_db_object","column_name":"name","usedInstances":{"3f18b54b-f752-4a63-b9a7-a18b12441aaa":["table"]}},{"name":"0449ea58-f8a8-4795-b4c1-b6caeda83eb1.new_service_type","label":"1 - Get Catalog Variables➛new_service_type","reference":"","reference_display":"new_service_type","type":"choice","base_type":"choice","choices":[{"label":"Submit a new Social Benefit Application","value":"social_benefit_application","order":100.0},{"label":"Ask a questions about Social Benefits in Your Product","value":"social_benefit_application_question","order":100.0},{"label":"Dispute a Claim for Social Benefits in Your Product ","value":"dispute_claim","order":100.0},{"label":"Report an Interruption to a Service Offered in Your Product ","value":"report_an_interruption_to_a","order":100.0},{"label":"Request an Enhancement for a Service Offered in Your Product","value":"request_an_enhancement_for_a_service_offered_in_your_product","order":100.0},{"label":"Submit a New Idea for a New Service to be Added","value":"submit_a_new_idea_for_a_new_service_to_be_added","order":100.0}],"usedInstances":{"3f88d119-6b36-4ebd-8c4c-8d1f7c27d336":["condition"]},"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"0449ea58-f8a8-4795-b4c1-b6caeda83eb1.new_product_name","label":"1 - Get Catalog Variables➛new_product_name","reference":"","reference_display":"new_product_name","type":"string","base_type":"string","usedInstances":{"ab4053a8-6932-480a-89f7-541b236dc642":["new_product_name"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"0449ea58-f8a8-4795-b4c1-b6caeda83eb1.new_product_description","label":"1 - Get Catalog Variables➛new_product_description","reference":"","reference_display":"new_product_description","type":"string","base_type":"string","usedInstances":{"ab4053a8-6932-480a-89f7-541b236dc642":["new_product_description"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"0449ea58-f8a8-4795-b4c1-b6caeda83eb1.delivery_root_dir","label":"1 - Get Catalog Variables➛delivery_root_dir","reference":"sc_category","reference_display":"Category","type":"reference","base_type":"reference","usedInstances":{"ab4053a8-6932-480a-89f7-541b236dc642":["delivery_root_category"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"0449ea58-f8a8-4795-b4c1-b6caeda83eb1.product_model_table","label":"1 - Get Catalog Variables➛product_model_table","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"ab4053a8-6932-480a-89f7-541b236dc642":["product_model_table"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"Service Catalog_1.request_item.cat_item.sys_scope","label":"Trigger - Service Catalog➛Requested Item Record➛Item➛Application","reference":"sys_scope","reference_display":"Application","type":"reference","base_type":"reference","parent_table_name":"sc_cat_item","column_name":"sys_scope","usedInstances":{"ab4053a8-6932-480a-89f7-541b236dc642":["system_application"]}}]</label_cache>
+        <master>true</master>
+        <name>Create or Modify {program name} Services</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Create or Modify {program name} Services">c5d63e67ff4302103ca0f6648c4fd941</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e39be40cff9f42103ca0f6648c4fd9e0</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:21</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=e39be40cff9f42103ca0f6648c4fd9e0"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e39be40cff9f42103ca0f6648c4fd9e0"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=e39be40cff9f42103ca0f6648c4fd9e0^sys_idNOT INc8ab280cff9f42103ca0f6648c4fd9c3"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Create or Modify {program name} Services">e39be40cff9f42103ca0f6648c4fd9e0</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:20</sys_created_on>
+        <sys_id>c8ab280cff9f42103ca0f6648c4fd9c3</sys_id>
+        <sys_mod_count>35</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:23</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c8ab280cff9f42103ca0f6648c4fd9c3"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=e39be40cff9f42103ca0f6648c4fd9e0"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=e39be40cff9f42103ca0f6648c4fd9e0^sys_idNOT INab9be40cff9f42103ca0f6648c4fd9e1"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>e39be40cff9f42103ca0f6648c4fd9e0</id>
+        <name>Create or Modify {Agency} Services</name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:18</sys_created_on>
+        <sys_id>ab9be40cff9f42103ca0f6648c4fd9e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-04 21:02:18</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=ab9be40cff9f42103ca0f6648c4fd9e1"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=e39be40cff9f42103ca0f6648c4fd9e0^sys_idNOT IN239be40cff9f42103ca0f6648c4fd9e3,a79b280cff9f42103ca0f6648c4fd937"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Create or Modify {program name} Services">e39be40cff9f42103ca0f6648c4fd9e0</model>
+        <model_id>e39be40cff9f42103ca0f6648c4fd9e0</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_e39be40cff9f42103ca0f6648c4fd9e0</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:18</sys_created_on>
+        <sys_id>239be40cff9f42103ca0f6648c4fd9e3</sys_id>
+        <sys_mod_count>45</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=239be40cff9f42103ca0f6648c4fd9e3"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create or Modify {program name} Services">e39be40cff9f42103ca0f6648c4fd9e0</model>
+        <model_id>e39be40cff9f42103ca0f6648c4fd9e0</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_e39be40cff9f42103ca0f6648c4fd9e0</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:19</sys_created_on>
+        <sys_id>a79b280cff9f42103ca0f6648c4fd937</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a79b280cff9f42103ca0f6648c4fd937"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=e39be40cff9f42103ca0f6648c4fd9e0"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e39be40cff9f42103ca0f6648c4fd9e0"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=e39be40cff9f42103ca0f6648c4fd9e0^sys_idNOT IN00ab280cff9f42103ca0f6648c4fd9c2,04ab280cff9f42103ca0f6648c4fd9b6,3b9b280cff9f42103ca0f6648c4fd9af,3f9b280cff9f42103ca0f6648c4fd9a5,739b280cff9f42103ca0f6648c4fd990,7f9b280cff9f42103ca0f6648c4fd976,80ab280cff9f42103ca0f6648c4fd9bc,bf9b280cff9f42103ca0f6648c4fd96c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create or Modify {program name} Services">e39be40cff9f42103ca0f6648c4fd9e0</flow>
+        <generation_source/>
+        <order>12</order>
+        <parent_ui_id>efff2e06-ef64-4d75-9312-b10a0858353c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:20</sys_created_on>
+        <sys_id>00ab280cff9f42103ca0f6648c4fd9c2</sys_id>
+        <sys_mod_count>46</sys_mod_count>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:21</sys_updated_on>
+        <ui_id>868c3074-e297-4de6-8c13-0b9676cc2908</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=00ab280cff9f42103ca0f6648c4fd9c2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>00ab280cff9f42103ca0f6648c4fd9c2</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:20</sys_created_on>
+        <sys_id>04ab280cff9f42103ca0f6648c4fd9c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-04 21:02:20</sys_updated_on>
+        <value>name=1234^table=x_snc_license_pe_1_agency_licenses_and_permits^service_type=3</value>
+        <variable display_value="Fields">6de09916c31332002841b63b12d3ae1b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>00ab280cff9f42103ca0f6648c4fd9c2</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:20</sys_created_on>
+        <sys_id>c4ab280cff9f42103ca0f6648c4fd9c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-04 21:02:20</sys_updated_on>
+        <value>sn_case_type_selection</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1^id=00ab280cff9f42103ca0f6648c4fd9c2"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=00ab280cff9f42103ca0f6648c4fd9c2"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=00ab280cff9f42103ca0f6648c4fd9c2"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create or Modify {program name} Services">e39be40cff9f42103ca0f6648c4fd9e0</flow>
+        <generation_source/>
+        <order>10</order>
+        <parent_ui_id>6a6f90db-1fdf-490c-b420-5e0eb77dcd92</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:20</sys_created_on>
+        <sys_id>04ab280cff9f42103ca0f6648c4fd9b6</sys_id>
+        <sys_mod_count>46</sys_mod_count>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:21</sys_updated_on>
+        <ui_id>cd9c0a41-a3f6-4577-9edf-06f577872327</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=04ab280cff9f42103ca0f6648c4fd9b6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>04ab280cff9f42103ca0f6648c4fd9b6</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:20</sys_created_on>
+        <sys_id>08ab280cff9f42103ca0f6648c4fd9b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-04 21:02:20</sys_updated_on>
+        <value>sn_ent_permit_model</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=04ab280cff9f42103ca0f6648c4fd9b6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>04ab280cff9f42103ca0f6648c4fd9b6</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:20</sys_created_on>
+        <sys_id>c0ab280cff9f42103ca0f6648c4fd9b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-04 21:02:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>04ab280cff9f42103ca0f6648c4fd9b6</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:20</sys_created_on>
+        <sys_id>84ab280cff9f42103ca0f6648c4fd9b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-04 21:02:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>name={{0b82409c-ef27-44b9-96df-cc2549ac99bb.record.sys_package.name}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=04ab280cff9f42103ca0f6648c4fd9b6"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=04ab280cff9f42103ca0f6648c4fd9b6"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create or Modify {program name} Services">e39be40cff9f42103ca0f6648c4fd9e0</flow>
+        <generation_source/>
+        <order>8</order>
+        <parent_ui_id>efff2e06-ef64-4d75-9312-b10a0858353c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:20</sys_created_on>
+        <sys_id>3b9b280cff9f42103ca0f6648c4fd9af</sys_id>
+        <sys_mod_count>46</sys_mod_count>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:21</sys_updated_on>
+        <ui_id>9378bb73-e047-4230-ace2-78d13492ccdd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3b9b280cff9f42103ca0f6648c4fd9af"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3b9b280cff9f42103ca0f6648c4fd9af</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:20</sys_created_on>
+        <sys_id>bb9b280cff9f42103ca0f6648c4fd9b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-04 21:02:20</sys_updated_on>
+        <value>sn_ent_permit_model</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3b9b280cff9f42103ca0f6648c4fd9af</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:20</sys_created_on>
+        <sys_id>f79b280cff9f42103ca0f6648c4fd9b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-04 21:02:20</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Don't fail on error">ceab42a673110010d70877186bf6a74f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3b9b280cff9f42103ca0f6648c4fd9af"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>3b9b280cff9f42103ca0f6648c4fd9af</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:20</sys_created_on>
+        <sys_id>b39b280cff9f42103ca0f6648c4fd9b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-04 21:02:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>name={{0b82409c-ef27-44b9-96df-cc2549ac99bb.record.sys_package.name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>3b9b280cff9f42103ca0f6648c4fd9af</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:20</sys_created_on>
+        <sys_id>779b280cff9f42103ca0f6648c4fd9b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-04 21:02:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__snc_dont_fail_on_error</field>
+        <id>3b9b280cff9f42103ca0f6648c4fd9af</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:20</sys_created_on>
+        <sys_id>ff9b280cff9f42103ca0f6648c4fd9b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-04 21:02:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3b9b280cff9f42103ca0f6648c4fd9af"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3b9b280cff9f42103ca0f6648c4fd9af"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create or Modify {program name} Services">e39be40cff9f42103ca0f6648c4fd9e0</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>731e4143-68cb-43ea-bf53-36815446fd23</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:20</sys_created_on>
+        <sys_id>3f9b280cff9f42103ca0f6648c4fd9a5</sys_id>
+        <sys_mod_count>46</sys_mod_count>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:20</sys_updated_on>
+        <ui_id>3f18b54b-f752-4a63-b9a7-a18b12441aaa</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3f9b280cff9f42103ca0f6648c4fd9a5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3f9b280cff9f42103ca0f6648c4fd9a5</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:20</sys_created_on>
+        <sys_id>bb9b280cff9f42103ca0f6648c4fd9a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-04 21:02:20</sys_updated_on>
+        <value>sn_case_type_selection</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3f9b280cff9f42103ca0f6648c4fd9a5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>3f9b280cff9f42103ca0f6648c4fd9a5</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:20</sys_created_on>
+        <sys_id>3b9b280cff9f42103ca0f6648c4fd9a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-04 21:02:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{0b82409c-ef27-44b9-96df-cc2549ac99bb.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>3f9b280cff9f42103ca0f6648c4fd9a5</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:20</sys_created_on>
+        <sys_id>b39b280cff9f42103ca0f6648c4fd9a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-04 21:02:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>3f9b280cff9f42103ca0f6648c4fd9a5</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:20</sys_created_on>
+        <sys_id>779b280cff9f42103ca0f6648c4fd9a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-04 21:02:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>table={{30156f0f-20bf-42c5-a8a9-59e915a6631d.Record.name}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3f9b280cff9f42103ca0f6648c4fd9a5"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3f9b280cff9f42103ca0f6648c4fd9a5"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create or Modify {program name} Services">e39be40cff9f42103ca0f6648c4fd9e0</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>3f88d119-6b36-4ebd-8c4c-8d1f7c27d336</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:20</sys_created_on>
+        <sys_id>739b280cff9f42103ca0f6648c4fd990</sys_id>
+        <sys_mod_count>46</sys_mod_count>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:20</sys_updated_on>
+        <ui_id>30156f0f-20bf-42c5-a8a9-59e915a6631d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=739b280cff9f42103ca0f6648c4fd990"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>739b280cff9f42103ca0f6648c4fd990</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:20</sys_created_on>
+        <sys_id>7b9b280cff9f42103ca0f6648c4fd99e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-04 21:02:20</sys_updated_on>
+        <value>sys_db_object</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>739b280cff9f42103ca0f6648c4fd990</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-05 22:34:27</sys_created_on>
+        <sys_id>834a8a5cffd306103ca0f6648c4fd9db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-05 22:34:27</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Don't fail on error">ceab42a673110010d70877186bf6a74f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=739b280cff9f42103ca0f6648c4fd990"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>739b280cff9f42103ca0f6648c4fd990</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:20</sys_created_on>
+        <sys_id>379b280cff9f42103ca0f6648c4fd99e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-05 22:34:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>sys_scope={{0b82409c-ef27-44b9-96df-cc2549ac99bb.record.sys_package}}^super_class=a1d2bf97ffda42503ca0f6648c4fd9b1</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>739b280cff9f42103ca0f6648c4fd990</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:20</sys_created_on>
+        <sys_id>f79b280cff9f42103ca0f6648c4fd99e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-04 21:02:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__snc_dont_fail_on_error</field>
+        <id>739b280cff9f42103ca0f6648c4fd990</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-05 22:34:27</sys_created_on>
+        <sys_id>4b4a8a5cffd306103ca0f6648c4fd9da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-05 22:34:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=739b280cff9f42103ca0f6648c4fd990"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=739b280cff9f42103ca0f6648c4fd990"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create or Modify {program name} Services">e39be40cff9f42103ca0f6648c4fd9e0</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>3f88d119-6b36-4ebd-8c4c-8d1f7c27d336</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:20</sys_created_on>
+        <sys_id>7f9b280cff9f42103ca0f6648c4fd976</sys_id>
+        <sys_mod_count>46</sys_mod_count>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:20</sys_updated_on>
+        <ui_id>0b82409c-ef27-44b9-96df-cc2549ac99bb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7f9b280cff9f42103ca0f6648c4fd976"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7f9b280cff9f42103ca0f6648c4fd976</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-05 22:34:27</sys_created_on>
+        <sys_id>434a8a5cffd306103ca0f6648c4fd9d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-05 22:34:27</sys_updated_on>
+        <value>name=^id=fd-scripted</value>
+        <variable display_value="Fields">6de09916c31332002841b63b12d3ae1b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7f9b280cff9f42103ca0f6648c4fd976</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:20</sys_created_on>
+        <sys_id>779b280cff9f42103ca0f6648c4fd985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-04 21:02:20</sys_updated_on>
+        <value>sn_case_type_selection</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1^id=7f9b280cff9f42103ca0f6648c4fd976"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7f9b280cff9f42103ca0f6648c4fd976^sys_idNOT INfb9b280cff9f42103ca0f6648c4fd977"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>values</input_name>
+        <instance>7f9b280cff9f42103ca0f6648c4fd976</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"id":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nvar sdName \u003d fd_data._1__get_catalog_variables.name_of_service_to_add;\nreturn sdName.toLowerCase().replace(/\\s/g, \u0027_\u0027);","savedValue":""}}</script>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:20</sys_created_on>
+        <sys_id>fb9b280cff9f42103ca0f6648c4fd977</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-05 22:34:27</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7f9b280cff9f42103ca0f6648c4fd976"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create or Modify {program name} Services">e39be40cff9f42103ca0f6648c4fd9e0</flow>
+        <generation_source/>
+        <order>11</order>
+        <parent_ui_id>6a6f90db-1fdf-490c-b420-5e0eb77dcd92</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:20</sys_created_on>
+        <sys_id>80ab280cff9f42103ca0f6648c4fd9bc</sys_id>
+        <sys_mod_count>46</sys_mod_count>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:21</sys_updated_on>
+        <ui_id>033a91ab-e718-4fd3-9ffc-ac019492ff91</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=80ab280cff9f42103ca0f6648c4fd9bc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>80ab280cff9f42103ca0f6648c4fd9bc</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:20</sys_created_on>
+        <sys_id>84ab280cff9f42103ca0f6648c4fd9bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-04 21:02:20</sys_updated_on>
+        <value>sn_csm_case_types_product_service_rel</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=80ab280cff9f42103ca0f6648c4fd9bc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>80ab280cff9f42103ca0f6648c4fd9bc</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:20</sys_created_on>
+        <sys_id>40ab280cff9f42103ca0f6648c4fd9bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-04 21:02:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>80ab280cff9f42103ca0f6648c4fd9bc</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:20</sys_created_on>
+        <sys_id>04ab280cff9f42103ca0f6648c4fd9bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-04 21:02:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>product={{cd9c0a41-a3f6-4577-9edf-06f577872327.record}}^service={{0b82409c-ef27-44b9-96df-cc2549ac99bb.record}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=80ab280cff9f42103ca0f6648c4fd9bc"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=80ab280cff9f42103ca0f6648c4fd9bc"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create or Modify {program name} Services">e39be40cff9f42103ca0f6648c4fd9e0</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:19</sys_created_on>
+        <sys_id>bf9b280cff9f42103ca0f6648c4fd96c</sys_id>
+        <sys_mod_count>46</sys_mod_count>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:20</sys_updated_on>
+        <ui_id>0449ea58-f8a8-4795-b4c1-b6caeda83eb1</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bf9b280cff9f42103ca0f6648c4fd96c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bf9b280cff9f42103ca0f6648c4fd96c</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:19</sys_created_on>
+        <sys_id>739b280cff9f42103ca0f6648c4fd96f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 17:07:34</sys_updated_on>
+        <value>e6b00590ff1fc2103ca0f6648c4fd90f:item_option_new,2b41722fff0302103ca0f6648c4fd914:item_option_new,b741722fff0302103ca0f6648c4fd987:item_option_new,bb41722fff0302103ca0f6648c4fd961:item_option_new,f341722fff0302103ca0f6648c4fd96e:item_option_new,7b41722fff0302103ca0f6648c4fd949:item_option_new,b741722fff0302103ca0f6648c4fd955:item_option_new,bce84510ff5fc2103ca0f6648c4fd9e1:item_option_new,0e8b8514ff5fc2103ca0f6648c4fd9f8:item_option_new,8ab72cc9ffdb0a103ca0f6648c4fd96f:item_option_new,2e8849c1ff534a103ca0f6648c4fd94a:item_option_new</value>
+        <variable display_value="Catalog Variables">7b0ba3abc31013002841b63b12d3aef7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bf9b280cff9f42103ca0f6648c4fd96c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:20</sys_created_on>
+        <sys_id>bb9b280cff9f42103ca0f6648c4fd96f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-05 22:34:27</sys_updated_on>
+        <value>6741322fff0302103ca0f6648c4fd9a7</value>
+        <variable display_value="Template Catalog Items and Variable Sets">bb0ba3abc31013002841b63b12d3aef1</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bf9b280cff9f42103ca0f6648c4fd96c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>bf9b280cff9f42103ca0f6648c4fd96c</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:19</sys_created_on>
+        <sys_id>7b9b280cff9f42103ca0f6648c4fd96e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-04 21:02:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requested_item</field>
+        <id>bf9b280cff9f42103ca0f6648c4fd96c</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:19</sys_created_on>
+        <sys_id>ff9b280cff9f42103ca0f6648c4fd96e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-04 21:02:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>bf9b280cff9f42103ca0f6648c4fd96c</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:19</sys_created_on>
+        <sys_id>3f9b280cff9f42103ca0f6648c4fd96e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-04 21:02:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bf9b280cff9f42103ca0f6648c4fd96c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=bf9b280cff9f42103ca0f6648c4fd96c"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=e39be40cff9f42103ca0f6648c4fd9e0^sys_idNOT IN24885e98ff5706103ca0f6648c4fd973"/>
+    <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create or Modify {program name} Services">e39be40cff9f42103ca0f6648c4fd9e0</flow>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <order>14</order>
+        <parent_ui_id>04a1eeed-3f9b-4530-8195-223c980ad904</parent_ui_id>
+        <subflow display_value="Configure Support and Delivery Models">34188658ffd306103ca0f6648c4fd9d9</subflow>
+        <subflow_instance_inputs/>
+        <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-05 23:36:33</sys_created_on>
+        <sys_id>24885e98ff5706103ca0f6648c4fd973</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:21</sys_updated_on>
+        <ui_id>ab4053a8-6932-480a-89f7-541b236dc642</ui_id>
+    </sys_hub_sub_flow_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=24885e98ff5706103ca0f6648c4fd973"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>24885e98ff5706103ca0f6648c4fd973</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-05 23:36:33</sys_created_on>
+        <sys_id>bc885e98ff5706103ca0f6648c4fd985</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:20</sys_updated_on>
+        <value/>
+        <variable display_value="System Application">8518c658ffd306103ca0f6648c4fd915</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=24885e98ff5706103ca0f6648c4fd973"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>delivery_root_category</field>
+        <id>24885e98ff5706103ca0f6648c4fd973</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-09 17:07:34</sys_created_on>
+        <sys_id>f9d52d69eb538e105204f635cad0cdd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 17:07:34</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_34188658ffd306103ca0f6648c4fd9d9</table>
+        <value>{{0449ea58-f8a8-4795-b4c1-b6caeda83eb1.delivery_root_dir}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>new_product_description</field>
+        <id>24885e98ff5706103ca0f6648c4fd973</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-05 23:36:33</sys_created_on>
+        <sys_id>3c885e98ff5706103ca0f6648c4fd985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-05 23:36:33</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_34188658ffd306103ca0f6648c4fd9d9</table>
+        <value>{{0449ea58-f8a8-4795-b4c1-b6caeda83eb1.new_product_description}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>new_product_name</field>
+        <id>24885e98ff5706103ca0f6648c4fd973</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-05 23:36:33</sys_created_on>
+        <sys_id>78885e98ff5706103ca0f6648c4fd985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-05 23:36:33</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_34188658ffd306103ca0f6648c4fd9d9</table>
+        <value>{{0449ea58-f8a8-4795-b4c1-b6caeda83eb1.new_product_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>product_model_table</field>
+        <id>24885e98ff5706103ca0f6648c4fd973</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-09 17:07:34</sys_created_on>
+        <sys_id>b1d52d69eb538e105204f635cad0cdd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 17:07:34</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_34188658ffd306103ca0f6648c4fd9d9</table>
+        <value>{{0449ea58-f8a8-4795-b4c1-b6caeda83eb1.product_model_table}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>system_application</field>
+        <id>24885e98ff5706103ca0f6648c4fd973</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-05 23:36:33</sys_created_on>
+        <sys_id>b0885e98ff5706103ca0f6648c4fd985</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:20</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_34188658ffd306103ca0f6648c4fd9d9</table>
+        <value>{{Service Catalog_1.request_item.cat_item.sys_scope}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>wait_for_completion</field>
+        <id>24885e98ff5706103ca0f6648c4fd973</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-05 23:36:33</sys_created_on>
+        <sys_id>7c885e98ff5706103ca0f6648c4fd986</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-05 23:36:33</sys_updated_on>
+        <table>var__m_sys_hub_sub_flow_instance_inputs_24885e98ff5706103ca0f6648c4fd973</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_sub_flow_instance_inputs action="delete_multiple" query="model=24885e98ff5706103ca0f6648c4fd973^sys_idNOT IN1dff5a1c1e9f06106d71ec043d13c2e4"/>
+    <sys_hub_sub_flow_instance_inputs action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,fd_hide_inline_script_widget=true,uiType=boolean</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>wait_for_completion</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Wait For Completion</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="">24885e98ff5706103ca0f6648c4fd973</model>
+        <model_id>24885e98ff5706103ca0f6648c4fd973</model_id>
+        <model_table>sys_hub_flow_logic_ext_input</model_table>
+        <name>var__m_sys_hub_sub_flow_instance_inputs_d9ff5a1c0a9f06100fc7e3d6674fbfe5</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_sub_flow_instance_inputs</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-06 00:09:14</sys_created_on>
+        <sys_id>1dff5a1c1e9f06106d71ec043d13c2e4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="">81ff5a1c449f06102707986acea6ca51</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-07 19:57:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_sub_flow_instance_inputs>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=24885e98ff5706103ca0f6648c4fd973^sys_idNOT INed0fd610ffd706103ca0f6648c4fd9e9"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>system_application</input_name>
+        <instance>24885e98ff5706103ca0f6648c4fd973</instance>
+        <referenced_table>sys_hub_sub_flow_instance</referenced_table>
+        <script>{"system_application":{"scriptActive":false,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nreturn gs.getCurrentApplicationId();\n//var gr \u003d new GlideRecord(\u0027sys_app\u0027);\n\n//gr.get(currentApp);"}}</script>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-06 00:05:00</sys_created_on>
+        <sys_id>ed0fd610ffd706103ca0f6648c4fd9e9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:20</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=e39be40cff9f42103ca0f6648c4fd9e0^sys_idNOT IN739b280cff9f42103ca0f6648c4fd95c,bf9b280cff9f42103ca0f6648c4fd963,c34aca5cffd306103ca0f6648c4fd903,c74aca5cffd306103ca0f6648c4fd911,fb9b280cff9f42103ca0f6648c4fd960"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">41d63e67ff4302103ca0f6648c4fd957</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create or Modify {program name} Services">e39be40cff9f42103ca0f6648c4fd9e0</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:19</sys_created_on>
+        <sys_id>739b280cff9f42103ca0f6648c4fd95c</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:20</sys_updated_on>
+        <ui_id>efff2e06-ef64-4d75-9312-b10a0858353c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=739b280cff9f42103ca0f6648c4fd95c"/>
+    <sys_element_mapping action="delete_multiple" query="id=739b280cff9f42103ca0f6648c4fd95c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>739b280cff9f42103ca0f6648c4fd95c</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:19</sys_created_on>
+        <sys_id>7b9b280cff9f42103ca0f6648c4fd95f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-05 22:34:27</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{0449ea58-f8a8-4795-b4c1-b6caeda83eb1.make_a_selection}}=create_a_new_service_desk_service</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=739b280cff9f42103ca0f6648c4fd95c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=739b280cff9f42103ca0f6648c4fd95c"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">cdd63e67ff4302103ca0f6648c4fd95e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create or Modify {program name} Services">e39be40cff9f42103ca0f6648c4fd9e0</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>9</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>efff2e06-ef64-4d75-9312-b10a0858353c</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:19</sys_created_on>
+        <sys_id>bf9b280cff9f42103ca0f6648c4fd963</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:21</sys_updated_on>
+        <ui_id>6a6f90db-1fdf-490c-b420-5e0eb77dcd92</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=bf9b280cff9f42103ca0f6648c4fd963"/>
+    <sys_element_mapping action="delete_multiple" query="id=bf9b280cff9f42103ca0f6648c4fd963"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>bf9b280cff9f42103ca0f6648c4fd963</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:19</sys_created_on>
+        <sys_id>779b280cff9f42103ca0f6648c4fd966</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-04 21:02:19</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{9378bb73-e047-4230-ace2-78d13492ccdd.status}}=1</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=bf9b280cff9f42103ca0f6648c4fd963"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bf9b280cff9f42103ca0f6648c4fd963"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">aa465194ff9fc2103ca0f6648c4fd9af</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create or Modify {program name} Services">e39be40cff9f42103ca0f6648c4fd9e0</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>efff2e06-ef64-4d75-9312-b10a0858353c</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-05 22:34:27</sys_created_on>
+        <sys_id>c34aca5cffd306103ca0f6648c4fd903</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:20</sys_updated_on>
+        <ui_id>3f88d119-6b36-4ebd-8c4c-8d1f7c27d336</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=c34aca5cffd306103ca0f6648c4fd903"/>
+    <sys_element_mapping action="delete_multiple" query="id=c34aca5cffd306103ca0f6648c4fd903"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>c34aca5cffd306103ca0f6648c4fd903</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-05 22:34:27</sys_created_on>
+        <sys_id>8b4aca5cffd306103ca0f6648c4fd905</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-05 22:34:27</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{0449ea58-f8a8-4795-b4c1-b6caeda83eb1.new_service_type}}=social_benefit_application^NQ{{0449ea58-f8a8-4795-b4c1-b6caeda83eb1.new_service_type}}=social_benefit_application_question^NQ{{0449ea58-f8a8-4795-b4c1-b6caeda83eb1.new_service_type}}=dispute_claim</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=c34aca5cffd306103ca0f6648c4fd903"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c34aca5cffd306103ca0f6648c4fd903"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">c2d8ce98ffd306103ca0f6648c4fd976</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create or Modify {program name} Services">e39be40cff9f42103ca0f6648c4fd9e0</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>13</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-05 22:34:27</sys_created_on>
+        <sys_id>c74aca5cffd306103ca0f6648c4fd911</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:21</sys_updated_on>
+        <ui_id>04a1eeed-3f9b-4530-8195-223c980ad904</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=c74aca5cffd306103ca0f6648c4fd911"/>
+    <sys_element_mapping action="delete_multiple" query="id=c74aca5cffd306103ca0f6648c4fd911"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>c74aca5cffd306103ca0f6648c4fd911</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-05 22:34:28</sys_created_on>
+        <sys_id>8f4aca5cffd306103ca0f6648c4fd913</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-07 21:49:48</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{0449ea58-f8a8-4795-b4c1-b6caeda83eb1.make_changes_to_product}}=yes</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=c74aca5cffd306103ca0f6648c4fd911"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c74aca5cffd306103ca0f6648c4fd911"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">0dd63e67ff4302103ca0f6648c4fd95b</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create or Modify {program name} Services">e39be40cff9f42103ca0f6648c4fd9e0</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>3f88d119-6b36-4ebd-8c4c-8d1f7c27d336</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:19</sys_created_on>
+        <sys_id>fb9b280cff9f42103ca0f6648c4fd960</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 18:04:20</sys_updated_on>
+        <ui_id>731e4143-68cb-43ea-bf53-36815446fd23</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=fb9b280cff9f42103ca0f6648c4fd960"/>
+    <sys_element_mapping action="delete_multiple" query="id=fb9b280cff9f42103ca0f6648c4fd960"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>fb9b280cff9f42103ca0f6648c4fd960</id>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:19</sys_created_on>
+        <sys_id>b39b280cff9f42103ca0f6648c4fd963</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-04 21:02:19</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{30156f0f-20bf-42c5-a8a9-59e915a6631d.status}}=0</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=fb9b280cff9f42103ca0f6648c4fd960"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fb9b280cff9f42103ca0f6648c4fd960"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=e39be40cff9f42103ca0f6648c4fd9e0"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=e39be40cff9f42103ca0f6648c4fd9e0"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_e39be40cff9f42103ca0f6648c4fd9e0^sys_idNOT INa79b280cff9f42103ca0f6648c4fd933,af9b280cff9f42103ca0f6648c4fd954"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e39be40cff9f42103ca0f6648c4fd9e0</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:19</sys_created_on>
+        <sys_id>a79b280cff9f42103ca0f6648c4fd933</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-04 21:02:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e39be40cff9f42103ca0f6648c4fd9e0</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:19</sys_created_on>
+        <sys_id>af9b280cff9f42103ca0f6648c4fd954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-04 21:02:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_e39be40cff9f42103ca0f6648c4fd9e0"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_e39be40cff9f42103ca0f6648c4fd9e0"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_e39be40cff9f42103ca0f6648c4fd9e0"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>c5d63e67ff4302103ca0f6648c4fd941</sys_id>
+        <latest_snapshot>e39be40cff9f42103ca0f6648c4fd9e0</latest_snapshot>
+        <compiler_build>glide-washingtondc-12-20-2023__patch5-06-21-2024_06-26-2024_1335.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=c5d63e67ff4302103ca0f6648c4fd941^sys_idNOT IN9cab680cff9f42103ca0f6648c4fd908"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"9cab680cff9f42103ca0f6648c4fd908","name":"plan","plan_signature":null}}</plan>
+        <plan_id>c5d63e67ff4302103ca0f6648c4fd941</plan_id>
+        <snapshot>e39be40cff9f42103ca0f6648c4fd9e0</snapshot>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:02:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9cab680cff9f42103ca0f6648c4fd908</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-05 22:34:31</sys_updated_on>
+        <trigger display_value="">94ab680cff9f42103ca0f6648c4fd908</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=c5d63e67ff4302103ca0f6648c4fd941"/>
+</record_update>

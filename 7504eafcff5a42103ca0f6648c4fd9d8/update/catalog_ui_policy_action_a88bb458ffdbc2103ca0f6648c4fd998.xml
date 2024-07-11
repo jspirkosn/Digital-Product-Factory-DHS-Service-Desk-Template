@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="{program name support} Service Desk Config">6741322fff0302103ca0f6648c4fd9a7</catalog_item>
+        <catalog_variable>IO:b741722fff0302103ca0f6648c4fd955</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-05 16:50:13</sys_created_on>
+        <sys_id>a88bb458ffdbc2103ca0f6648c4fd998</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>selected_service</sys_name>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_a88bb458ffdbc2103ca0f6648c4fd998</sys_update_name>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-05 17:02:40</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'selected_service' mandatory &amp; visible depending on 'make_a_selection' &amp; 'make_a_selection'">953bbc18ffdbc2103ca0f6648c4fd9f7</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>selected_service</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="{program name support} Service Desk Config">6741322fff0302103ca0f6648c4fd9a7</catalog_item>
+        <catalog_variable>IO:b741722fff0302103ca0f6648c4fd987</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:29:29</sys_created_on>
+        <sys_id>dc51722fff0302103ca0f6648c4fd9f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>new_product_description</sys_name>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_dc51722fff0302103ca0f6648c4fd9f1</sys_update_name>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-03 17:29:29</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'new_product_description' visible depending on 'make_changes_to_product'">9851722fff0302103ca0f6648c4fd9e9</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>new_product_description</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

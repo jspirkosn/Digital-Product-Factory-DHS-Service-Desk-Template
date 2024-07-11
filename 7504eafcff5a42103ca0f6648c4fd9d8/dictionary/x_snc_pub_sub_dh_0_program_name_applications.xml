@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="labelCacheCleanUpExecuted=true" db_object_id="53b9a9caffc3cad03ca0f6648c4fd9aa" extends="sn_gsm_social_benefits_case" label="Benefit Application Case Table" max_length="40" name="x_snc_pub_sub_dh_0_program_name_applications" text_index="true" type="collection"/>
+</database>

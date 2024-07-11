@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Report a xxx Service Disruption">0b84ae30ff9a42103ca0f6648c4fd984</sc_cat_item>
+        <sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-05-18 20:47:08</sys_created_on>
+        <sys_id>3665aab0ff9a42103ca0f6648c4fd9f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.Report a xxx Service Disruption</sys_name>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_update_name>sc_cat_item_category_3665aab0ff9a42103ca0f6648c4fd9f0</sys_update_name>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-05-18 20:47:08</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</application>
+        <file_path/>
+        <instance_id>76bfb9f61ba9f594fe1b43f4bd4bcb74</instance_id>
+        <instance_name>dsforum</instance_name>
+        <name>sc_cat_item_category_3665aab0ff9a42103ca0f6648c4fd9f0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Report a xxx Service Disruption">0b84ae30ff9a42103ca0f6648c4fd984</sc_cat_item><sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>jspirko</sys_created_by><sys_created_on>2024-05-18 20:47:08</sys_created_on><sys_id>3665aab0ff9a42103ca0f6648c4fd9f0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Can We Help You?.Report a xxx Service Disruption</sys_name><sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package><sys_policy/><sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope><sys_update_name>sc_cat_item_category_3665aab0ff9a42103ca0f6648c4fd9f0</sys_update_name><sys_updated_by>jspirko</sys_updated_by><sys_updated_on>2024-05-18 20:47:08</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-698688936</payload_hash>
+        <record_name>Can We Help You?.Report a xxx Service Disruption</record_name>
+        <reverted_from/>
+        <source>f504eafcff5a42103ca0f6648c4fd9dc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-05-18 20:47:08</sys_created_on>
+        <sys_id>7e65aab0ff9a42103ca0f6648c4fd9f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f8d7556270000001</sys_recorded_at>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-05-18 20:47:08</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>7e65aab03a9a421079a1e20d9696a5f3</update_guid>
+        <update_guid_history>7e65aab03a9a421079a1e20d9696a5f3:-698688936</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Can We Help You?.Report a xxx Service Disruption">2c75eab0ff9a42103ca0f6648c4fd9ad</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-05-18 20:47:14</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>032df1ef232b457483a1e03b16217479</sys_id>
+        <sys_metadata>3665aab0ff9a42103ca0f6648c4fd9f0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.Report a xxx Service Disruption</sys_name>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_scope_delete display_value="">46efe59db52b4c0da8bf7f5e083feb49</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_3665aab0ff9a42103ca0f6648c4fd9f0</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_3665aab0ff9a42103ca0f6648c4fd9f0">7e65aab0ff9a42103ca0f6648c4fd9f4</sys_update_version>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-05-18 20:47:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

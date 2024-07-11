@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="DELETE">
+        <sc_cat_item display_value="Configure the {program_name} Work Flows">c23aedf2eb9202505204f635cad0cd13</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-05-24 21:36:20</sys_created_on>
+        <sys_id>4e3aedf2eb9202505204f635cad0cd18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Initiate.SNC External</sys_name>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_4e3aedf2eb9202505204f635cad0cd18</sys_update_name>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-05-24 21:36:20</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</application>
+        <file_path/>
+        <instance_id>76bfb9f61ba9f594fe1b43f4bd4bcb74</instance_id>
+        <instance_name>dsforum</instance_name>
+        <name>sc_cat_item_user_criteria_no_mtom_4e3aedf2eb9202505204f635cad0cd18</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom"><sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Configure the {program_name} Work Flows">c23aedf2eb9202505204f635cad0cd13</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name><sys_created_by>jspirko</sys_created_by><sys_created_on>2024-05-24 21:36:20</sys_created_on><sys_id>4e3aedf2eb9202505204f635cad0cd18</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Initiate.SNC External</sys_name><sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package><sys_policy/><sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope><sys_update_name>sc_cat_item_user_criteria_no_mtom_4e3aedf2eb9202505204f635cad0cd18</sys_update_name><sys_updated_by>jspirko</sys_updated_by><sys_updated_on>2024-05-24 21:36:20</sys_updated_on><user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria></sc_cat_item_user_criteria_no_mtom></record_update>]]></payload>
+        <payload_hash>-1503357986</payload_hash>
+        <record_name>Initiate.SNC External</record_name>
+        <reverted_from/>
+        <source>4759c833eb0302105204f635cad0cd9b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-07-03 23:54:09</sys_created_on>
+        <sys_id>b37b7294ff9b06103ca0f6648c4fd9f6</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>1907b0514e80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Catalog Item Not Available for</type>
+        <update_guid>737b7294819b0610fd41c1c4a9d2a7f6</update_guid>
+        <update_guid_history>737b7294819b0610fd41c1c4a9d2a7f6:-1503357986</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Initiate.SNC External">7f7b7294ff9b06103ca0f6648c4fd9f6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-06 02:09:25</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_no_mtom">sc_cat_item_user_criteria_no_mtom</sys_db_object>
+        <sys_id>1795c454a72e48408602d7f45eedac90</sys_id>
+        <sys_metadata>4e3aedf2eb9202505204f635cad0cd18</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Initiate.SNC External</sys_name>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_scope_delete display_value="">46efe59db52b4c0da8bf7f5e083feb49</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_4e3aedf2eb9202505204f635cad0cd18</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_no_mtom_4e3aedf2eb9202505204f635cad0cd18">b37b7294ff9b06103ca0f6648c4fd9f6</sys_update_version>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-06 02:09:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>workspace-pub-sub---dhs-service-desk-0</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-01 04:36:06</sys_created_on>
+        <sys_id>531da1bea1070210376f12bf5b01b8b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Workspace Pub Sub   DHS Service Desk 0</sys_name>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_update_name>sys_ui_view_531da1bea1070210376f12bf5b01b8b9</sys_update_name>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-01 04:36:06</sys_updated_on>
+        <title>Workspace Pub Sub   DHS Service Desk 0</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

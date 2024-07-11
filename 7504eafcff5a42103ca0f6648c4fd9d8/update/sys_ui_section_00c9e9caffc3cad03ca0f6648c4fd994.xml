@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="What is your preferred..." section_id="00c9e9caffc3cad03ca0f6648c4fd994" sys_domain="global" table="x_snc_pub_sub_dh_0_program_name_applications" version="3" view="answerAdditionalQuestions">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contact_method</element>
+            <position>0</position>
+            <sys_created_by>jspirko</sys_created_by>
+            <sys_created_on>2024-06-28 20:25:56</sys_created_on>
+            <sys_id>48c9e9caffc3cad03ca0f6648c4fd996</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="What is your preferred..." display_value="What is your preferred..." name="x_snc_pub_sub_dh_0_program_name_applications" sys_domain="global" view="c795d4ada3700210974f00dfe51e61dc">00c9e9caffc3cad03ca0f6648c4fd994</sys_ui_section>
+            <sys_updated_by>jspirko</sys_updated_by>
+            <sys_updated_on>2024-06-28 20:25:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>language_spoken_at_home</element>
+            <position>1</position>
+            <sys_created_by>jspirko</sys_created_by>
+            <sys_created_on>2024-06-28 20:25:56</sys_created_on>
+            <sys_id>40c9e9caffc3cad03ca0f6648c4fd997</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="What is your preferred..." display_value="What is your preferred..." name="x_snc_pub_sub_dh_0_program_name_applications" sys_domain="global" view="c795d4ada3700210974f00dfe51e61dc">00c9e9caffc3cad03ca0f6648c4fd994</sys_ui_section>
+            <sys_updated_by>jspirko</sys_updated_by>
+            <sys_updated_on>2024-06-28 20:25:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>language_for_written_communication</element>
+            <position>2</position>
+            <sys_created_by>jspirko</sys_created_by>
+            <sys_created_on>2024-06-28 20:25:56</sys_created_on>
+            <sys_id>48c9e9caffc3cad03ca0f6648c4fd995</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="What is your preferred..." display_value="What is your preferred..." name="x_snc_pub_sub_dh_0_program_name_applications" sys_domain="global" view="c795d4ada3700210974f00dfe51e61dc">00c9e9caffc3cad03ca0f6648c4fd994</sys_ui_section>
+            <sys_updated_by>jspirko</sys_updated_by>
+            <sys_updated_on>2024-06-28 20:25:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>jspirko</sys_created_by>
+            <sys_created_on>2024-06-28 20:25:56</sys_created_on>
+            <sys_id>40c9e9caffc3cad03ca0f6648c4fd995</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="What is your preferred..." display_value="What is your preferred..." name="x_snc_pub_sub_dh_0_program_name_applications" sys_domain="global" view="c795d4ada3700210974f00dfe51e61dc">00c9e9caffc3cad03ca0f6648c4fd994</sys_ui_section>
+            <sys_updated_by>jspirko</sys_updated_by>
+            <sys_updated_on>2024-06-28 20:25:56</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>4</position>
+            <sys_created_by>jspirko</sys_created_by>
+            <sys_created_on>2024-06-28 20:25:56</sys_created_on>
+            <sys_id>40c9e9caffc3cad03ca0f6648c4fd996</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="What is your preferred..." display_value="What is your preferred..." name="x_snc_pub_sub_dh_0_program_name_applications" sys_domain="global" view="c795d4ada3700210974f00dfe51e61dc">00c9e9caffc3cad03ca0f6648c4fd994</sys_ui_section>
+            <sys_updated_by>jspirko</sys_updated_by>
+            <sys_updated_on>2024-06-28 20:25:56</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>What is your preferred...</caption>
+            <header>false</header>
+            <name>x_snc_pub_sub_dh_0_program_name_applications</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>jspirko</sys_created_by>
+            <sys_created_on>2024-06-28 20:25:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>00c9e9caffc3cad03ca0f6648c4fd994</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_pub_sub_dh_0_program_name_applications</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+            <sys_update_name>sys_ui_section_00c9e9caffc3cad03ca0f6648c4fd994</sys_update_name>
+            <sys_updated_by>jspirko</sys_updated_by>
+            <sys_updated_on>2024-06-28 20:25:56</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="answerAdditionalQuestions" name="answerAdditionalQuestions">c795d4ada3700210974f00dfe51e61dc</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

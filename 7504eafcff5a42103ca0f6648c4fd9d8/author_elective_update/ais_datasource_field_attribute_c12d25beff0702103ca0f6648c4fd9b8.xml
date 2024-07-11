@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_datasource_field_attribute">
+    <ais_datasource_field_attribute action="DELETE">
+        <attribute display_value="map_to">f734a634c7320010d1cfd9795cc26094</attribute>
+        <datasource/>
+        <field>sys_updated_on</field>
+        <source>x_snc_pub_sub_dh_0_program_name_applications</source>
+        <sys_class_name>ais_datasource_field_attribute</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-01 04:36:11</sys_created_on>
+        <sys_id>c12d25beff0702103ca0f6648c4fd9b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>undefined.sys_updated_on</sys_name>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_update_name>ais_datasource_field_attribute_c12d25beff0702103ca0f6648c4fd9b8</sys_update_name>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-01 04:36:11</sys_updated_on>
+        <value>sort_by_date</value>
+    </ais_datasource_field_attribute>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</application>
+        <file_path/>
+        <instance_id>76bfb9f61ba9f594fe1b43f4bd4bcb74</instance_id>
+        <instance_name>dsforum</instance_name>
+        <name>ais_datasource_field_attribute_c12d25beff0702103ca0f6648c4fd9b8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_datasource_field_attribute"><ais_datasource_field_attribute action="INSERT_OR_UPDATE"><attribute display_value="map_to">f734a634c7320010d1cfd9795cc26094</attribute><datasource/><field>sys_updated_on</field><source>x_snc_pub_sub_dh_0_program_name_applications</source><sys_class_name>ais_datasource_field_attribute</sys_class_name><sys_created_by>jspirko</sys_created_by><sys_created_on>2024-07-01 04:36:11</sys_created_on><sys_id>c12d25beff0702103ca0f6648c4fd9b8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>undefined.sys_updated_on</sys_name><sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package><sys_policy/><sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope><sys_update_name>ais_datasource_field_attribute_c12d25beff0702103ca0f6648c4fd9b8</sys_update_name><sys_updated_by>jspirko</sys_updated_by><sys_updated_on>2024-07-01 04:36:11</sys_updated_on><value>sort_by_date</value></ais_datasource_field_attribute></record_update>]]></payload>
+        <payload_hash>2112198397</payload_hash>
+        <record_name>undefined.sys_updated_on</record_name>
+        <reverted_from/>
+        <source>f504eafcff5a42103ca0f6648c4fd9dc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-01 04:36:11</sys_created_on>
+        <sys_id>c52d25beff0702103ca0f6648c4fd9bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1906c94388b0000001</sys_recorded_at>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-01 04:36:11</sys_updated_on>
+        <type>AI Search Indexed Source Field Attribute</type>
+        <update_guid>492d25bed00702104122188eca5756ba</update_guid>
+        <update_guid_history>492d25bed00702104122188eca5756ba:2112198397</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="undefined.sys_updated_on">91017576ff4702103ca0f6648c4fd92c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-01 04:53:08</sys_created_on>
+        <sys_db_object display_value="" name="ais_datasource_field_attribute">ais_datasource_field_attribute</sys_db_object>
+        <sys_id>0199abd79cad48188005704c7e9d7844</sys_id>
+        <sys_metadata>c12d25beff0702103ca0f6648c4fd9b8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>undefined.sys_updated_on</sys_name>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_scope_delete display_value="">46efe59db52b4c0da8bf7f5e083feb49</sys_scope_delete>
+        <sys_update_name>ais_datasource_field_attribute_c12d25beff0702103ca0f6648c4fd9b8</sys_update_name>
+        <sys_update_version display_value="ais_datasource_field_attribute_c12d25beff0702103ca0f6648c4fd9b8">c52d25beff0702103ca0f6648c4fd9bb</sys_update_version>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-01 04:53:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
