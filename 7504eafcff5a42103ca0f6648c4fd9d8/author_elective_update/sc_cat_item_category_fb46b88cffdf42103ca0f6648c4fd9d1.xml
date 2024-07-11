@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="{Agency} Service Desk Config">6741322fff0302103ca0f6648c4fd9a7</sc_cat_item>
+        <sc_category display_value="Application and Account Access">22555319db0150104327198d1396195c</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:49:01</sys_created_on>
+        <sys_id>fb46b88cffdf42103ca0f6648c4fd9d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Application and Account Access.{Agency} Service Desk Config</sys_name>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_update_name>sc_cat_item_category_fb46b88cffdf42103ca0f6648c4fd9d1</sys_update_name>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-04 21:49:01</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</application>
+        <file_path/>
+        <instance_id>76bfb9f61ba9f594fe1b43f4bd4bcb74</instance_id>
+        <instance_name>dsforum</instance_name>
+        <name>sc_cat_item_category_fb46b88cffdf42103ca0f6648c4fd9d1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="{Agency} Service Desk Config">6741322fff0302103ca0f6648c4fd9a7</sc_cat_item><sc_category display_value="Application and Account Access">22555319db0150104327198d1396195c</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>jspirko</sys_created_by><sys_created_on>2024-07-04 21:49:01</sys_created_on><sys_id>fb46b88cffdf42103ca0f6648c4fd9d1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Application and Account Access.{Agency} Service Desk Config</sys_name><sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package><sys_policy/><sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope><sys_update_name>sc_cat_item_category_fb46b88cffdf42103ca0f6648c4fd9d1</sys_update_name><sys_updated_by>jspirko</sys_updated_by><sys_updated_on>2024-07-04 21:49:01</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-159423671</payload_hash>
+        <record_name>Application and Account Access.{Agency} Service Desk Config</record_name>
+        <reverted_from/>
+        <source>f504eafcff5a42103ca0f6648c4fd9dc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-04 21:49:01</sys_created_on>
+        <sys_id>bf46b88cffdf42103ca0f6648c4fd9d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1907fb8e4a50000001</sys_recorded_at>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-04 21:49:01</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>bf46b88cbcdf421024da4ed3795204d4</update_guid>
+        <update_guid_history>bf46b88cbcdf421024da4ed3795204d4:-159423671</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Application and Account Access.{Agency} Service Desk Config">d8afbde5eb578e105204f635cad0cd3f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-09 19:00:14</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>c6c7aca0e56341beb541ed08cc1adc84</sys_id>
+        <sys_metadata>fb46b88cffdf42103ca0f6648c4fd9d1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Application and Account Access.{Agency} Service Desk Config</sys_name>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_scope_delete display_value="">46efe59db52b4c0da8bf7f5e083feb49</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_fb46b88cffdf42103ca0f6648c4fd9d1</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_fb46b88cffdf42103ca0f6648c4fd9d1">bf46b88cffdf42103ca0f6648c4fd9d5</sys_update_version>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 19:00:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

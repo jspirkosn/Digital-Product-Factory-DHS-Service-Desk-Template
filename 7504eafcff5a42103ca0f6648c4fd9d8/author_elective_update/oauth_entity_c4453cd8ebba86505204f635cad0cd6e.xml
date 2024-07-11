@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+    <oauth_entity action="DELETE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_code_lifespan>0</auth_code_lifespan>
+        <auth_url>https://www.arcgis.com/sharing/rest/oauth2/authorize</auth_url>
+        <certificate_url/>
+        <client_id>Ov2DoO3Ncgfcnr7Z</client_id>
+        <client_secret>﷞﷟﷒743d477ac3a131101edc78f9d0013189﷬﷔1﷬﷭3j1Yo48CF7WXTCtaAlGg8A==6cetjpK5bVEGYo3XnUkBNBx9z1OXqs2zAWYFp3ZxbAGjb6Trl3-iWXdllGJFq_3a﷮﷯</client_secret>
+        <client_uuid>44453cd8ebba86505204f635cad0cd6e</client_uuid>
+        <code_challenge_method>S256</code_challenge_method>
+        <comments/>
+        <default_grant_type>authorization_code</default_grant_type>
+        <id_token_lifespan>0</id_token_lifespan>
+        <jwt_provider/>
+        <login_url/>
+        <logo_url/>
+        <message_signature_lifespan>0</message_signature_lifespan>
+        <mobile_client>false</mobile_client>
+        <name>ArcGIS Online OAuth</name>
+        <oauth_api_script/>
+        <protocol_name/>
+        <public_client>false</public_client>
+        <redirect_url>https://dsforum.service-now.com/oauth_redirect.do</redirect_url>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <refresh_token_url/>
+        <restricted_binding>false</restricted_binding>
+        <revoke_token_url/>
+        <salt>0</salt>
+        <send_client_credentials_as>request_body_parameter</send_client_credentials_as>
+        <skip_authorize>false</skip_authorize>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-06-10 19:53:07</sys_created_on>
+        <sys_id>c4453cd8ebba86505204f635cad0cd6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ArcGIS Online OAuth</sys_name>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_update_name>oauth_entity_c4453cd8ebba86505204f635cad0cd6e</sys_update_name>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-06-10 19:53:07</sys_updated_on>
+        <token_url>https://www.arcgis.com/sharing/rest/oauth2/token</token_url>
+        <type>oauth_provider</type>
+        <use_mutual_auth>false</use_mutual_auth>
+        <user/>
+    </oauth_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</application>
+        <file_path/>
+        <instance_id>76bfb9f61ba9f594fe1b43f4bd4bcb74</instance_id>
+        <instance_name>dsforum</instance_name>
+        <name>oauth_entity_c4453cd8ebba86505204f635cad0cd6e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity"><oauth_entity action="INSERT_OR_UPDATE"><access>public</access><access_token_lifespan>1800</access_token_lifespan><active>true</active><auth_code_lifespan>0</auth_code_lifespan><auth_url>https://www.arcgis.com/sharing/rest/oauth2/authorize</auth_url><certificate_url/><client_id>Ov2DoO3Ncgfcnr7Z</client_id><client_secret>﷞﷟﷒743d477ac3a131101edc78f9d0013189﷬﷔1﷬﷭3j1Yo48CF7WXTCtaAlGg8A==6cetjpK5bVEGYo3XnUkBNBx9z1OXqs2zAWYFp3ZxbAGjb6Trl3-iWXdllGJFq_3a﷮﷯</client_secret><client_uuid>44453cd8ebba86505204f635cad0cd6e</client_uuid><code_challenge_method>S256</code_challenge_method><comments/><default_grant_type>authorization_code</default_grant_type><id_token_lifespan>0</id_token_lifespan><jwt_provider/><login_url/><logo_url/><message_signature_lifespan>0</message_signature_lifespan><mobile_client>false</mobile_client><name>ArcGIS Online OAuth</name><oauth_api_script/><protocol_name/><public_client>false</public_client><redirect_url>https://dsforum.service-now.com/oauth_redirect.do</redirect_url><refresh_token_lifespan>8640000</refresh_token_lifespan><refresh_token_url/><restricted_binding>false</restricted_binding><revoke_token_url/><salt>0</salt><send_client_credentials_as>request_body_parameter</send_client_credentials_as><skip_authorize>false</skip_authorize><sys_class_name>oauth_entity</sys_class_name><sys_created_by>jspirko</sys_created_by><sys_created_on>2024-06-10 19:53:07</sys_created_on><sys_id>c4453cd8ebba86505204f635cad0cd6e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ArcGIS Online OAuth</sys_name><sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package><sys_policy/><sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope><sys_update_name>oauth_entity_c4453cd8ebba86505204f635cad0cd6e</sys_update_name><sys_updated_by>jspirko</sys_updated_by><sys_updated_on>2024-06-10 19:53:07</sys_updated_on><token_url>https://www.arcgis.com/sharing/rest/oauth2/token</token_url><type>oauth_provider</type><use_mutual_auth>false</use_mutual_auth><user/></oauth_entity></record_update>]]></payload>
+        <payload_hash>1967976856</payload_hash>
+        <record_name>ArcGIS Online OAuth</record_name>
+        <reverted_from/>
+        <source>f504eafcff5a42103ca0f6648c4fd9dc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-06-10 19:53:07</sys_created_on>
+        <sys_id>08a5f41cebba86505204f635cad0cd53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19003b628860000001</sys_recorded_at>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-06-10 19:53:07</sys_updated_on>
+        <type>Application Registries</type>
+        <update_guid>c8a5f41c4dba86506f59b669bc523252</update_guid>
+        <update_guid_history>c8a5f41c4dba86506f59b669bc523252:1967976856</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ArcGIS Online OAuth">f461ba24ebf64a505204f635cad0cd14</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-06-11 23:32:21</sys_created_on>
+        <sys_db_object display_value="" name="oauth_entity">oauth_entity</sys_db_object>
+        <sys_id>2f7f24c7e7d846089198f03213444240</sys_id>
+        <sys_metadata>c4453cd8ebba86505204f635cad0cd6e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ArcGIS Online OAuth</sys_name>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_scope_delete display_value="">46efe59db52b4c0da8bf7f5e083feb49</sys_scope_delete>
+        <sys_update_name>oauth_entity_c4453cd8ebba86505204f635cad0cd6e</sys_update_name>
+        <sys_update_version display_value="oauth_entity_c4453cd8ebba86505204f635cad0cd6e">08a5f41cebba86505204f635cad0cd53</sys_update_version>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-06-11 23:32:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

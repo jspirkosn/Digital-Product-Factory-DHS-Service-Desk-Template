@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="topic">
+    <topic action="DELETE">
+        <active>true</active>
+        <apply_to_child_topics>false</apply_to_child_topics>
+        <banner_image/>
+        <banner_image_url/>
+        <description/>
+        <icon/>
+        <icon_url/>
+        <name>DHS Program Services</name>
+        <order>300</order>
+        <parent_topic/>
+        <sys_class_name>topic</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-05-19 03:20:53</sys_created_on>
+        <sys_id>436fb7b4ff1682103ca0f6648c4fd983</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>DHS Program Services</sys_name>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_update_name>topic_436fb7b4ff1682103ca0f6648c4fd983</sys_update_name>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-05-19 03:21:40</sys_updated_on>
+        <taxonomy display_value="Employee">1f5d5a40c3203010069aec4b7d40dd93</taxonomy>
+        <template display_value="emp_taxonomy_topic">4fb26c9cc3d030102ec1a589a840ddbd</template>
+        <topic_based_navigation>false</topic_based_navigation>
+        <topic_contributor/>
+        <topic_manager/>
+        <topic_path>Department Services</topic_path>
+    </topic>
+    <sys_translated_text action="DELETE" query="documentkey=436fb7b4ff1682103ca0f6648c4fd983"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</application>
+        <file_path/>
+        <instance_id>76bfb9f61ba9f594fe1b43f4bd4bcb74</instance_id>
+        <instance_name>dsforum</instance_name>
+        <name>topic_436fb7b4ff1682103ca0f6648c4fd983</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="topic"><topic action="INSERT_OR_UPDATE"><active>true</active><apply_to_child_topics>false</apply_to_child_topics><banner_image/><banner_image_url/><description/><icon/><icon_url/><name>DHS Program Services</name><order>300</order><parent_topic/><sys_class_name>topic</sys_class_name><sys_created_by>jspirko</sys_created_by><sys_created_on>2024-05-19 03:20:53</sys_created_on><sys_id>436fb7b4ff1682103ca0f6648c4fd983</sys_id><sys_mod_count>2</sys_mod_count><sys_name>DHS Program Services</sys_name><sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package><sys_policy/><sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope><sys_update_name>topic_436fb7b4ff1682103ca0f6648c4fd983</sys_update_name><sys_updated_by>jspirko</sys_updated_by><sys_updated_on>2024-05-19 03:21:40</sys_updated_on><taxonomy display_value="Employee">1f5d5a40c3203010069aec4b7d40dd93</taxonomy><template display_value="emp_taxonomy_topic">4fb26c9cc3d030102ec1a589a840ddbd</template><topic_based_navigation>false</topic_based_navigation><topic_contributor/><topic_manager/><topic_path>Department Services</topic_path></topic><sys_translated_text action="delete_multiple" query="documentkey=436fb7b4ff1682103ca0f6648c4fd983"/></record_update>]]></payload>
+        <payload_hash>1258824475</payload_hash>
+        <record_name>DHS Program Services</record_name>
+        <reverted_from/>
+        <source>f504eafcff5a42103ca0f6648c4fd9dc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-05-19 03:21:40</sys_created_on>
+        <sys_id>debf3fb4ff1682103ca0f6648c4fd945</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f8ede8b930000001</sys_recorded_at>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-05-19 03:21:40</sys_updated_on>
+        <type>Topic</type>
+        <update_guid>92bf3fb4d11682107f4049175b860745</update_guid>
+        <update_guid_history>92bf3fb4d11682107f4049175b860745:1258824475,b28f3fb4c81682107c20c3e5c9b553e3:809162454</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="DHS Program Services">1d1fa401ff5a82103ca0f6648c4fd9bc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-05-19 06:48:36</sys_created_on>
+        <sys_db_object display_value="Topic" name="topic">topic</sys_db_object>
+        <sys_id>58924506ccc244b2860ca049762a3a84</sys_id>
+        <sys_metadata>436fb7b4ff1682103ca0f6648c4fd983</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DHS Program Services</sys_name>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_scope_delete display_value="">46efe59db52b4c0da8bf7f5e083feb49</sys_scope_delete>
+        <sys_update_name>topic_436fb7b4ff1682103ca0f6648c4fd983</sys_update_name>
+        <sys_update_version display_value="topic_436fb7b4ff1682103ca0f6648c4fd983">debf3fb4ff1682103ca0f6648c4fd945</sys_update_version>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-05-19 06:48:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

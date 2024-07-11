@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Change the Product Name or Description:">e6b00590ff1fc2103ca0f6648c4fd90f</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-05 17:13:02</sys_created_on>
+        <sys_id>f2b04590ff1fc2103ca0f6648c4fd900</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Change the Service Desk Name and or Description</sys_name>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_update_name>question_choice_f2b04590ff1fc2103ca0f6648c4fd900</sys_update_name>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-07 21:19:56</sys_updated_on>
+        <text>Change the Service Desk Name and or Description</text>
+        <value>change_product</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=f2b04590ff1fc2103ca0f6648c4fd900"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>f2b04590ff1fc2103ca0f6648c4fd900</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-05 17:13:02</sys_created_on>
+        <sys_id>3eb04590ff1fc2103ca0f6648c4fd906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-05 17:13:02</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>f2b04590ff1fc2103ca0f6648c4fd900</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-05 17:13:02</sys_created_on>
+        <sys_id>f2b04590ff1fc2103ca0f6648c4fd906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-05 17:13:02</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

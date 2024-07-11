@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list_category">
+    <sys_ux_list_category action="DELETE">
+        <active>true</active>
+        <configuration display_value="{Program Name} DHS Service Desk_menu_config">9c84aa12eb8b42905204f635cad0cd8a</configuration>
+        <description/>
+        <order>100</order>
+        <sys_class_name>sys_ux_list_category</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-06-29 19:21:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5884aa12eb8b42905204f635cad0cd8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CWIP Application Table Example</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_update_name>sys_ux_list_category_5884aa12eb8b42905204f635cad0cd8d</sys_update_name>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-06-29 19:21:06</sys_updated_on>
+        <title>CWIP Application Table Example</title>
+    </sys_ux_list_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</application>
+        <file_path/>
+        <instance_id>76bfb9f61ba9f594fe1b43f4bd4bcb74</instance_id>
+        <instance_name>dsforum</instance_name>
+        <name>sys_ux_list_category_5884aa12eb8b42905204f635cad0cd8d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list_category"><sys_ux_list_category action="INSERT_OR_UPDATE"><active>true</active><configuration display_value="{Program Name} DHS Service Desk_menu_config">9c84aa12eb8b42905204f635cad0cd8a</configuration><description/><order>100</order><sys_class_name>sys_ux_list_category</sys_class_name><sys_created_by>jspirko</sys_created_by><sys_created_on>2024-06-29 19:21:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5884aa12eb8b42905204f635cad0cd8d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CWIP Application Table Example</sys_name><sys_overrides/><sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package><sys_policy/><sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope><sys_update_name>sys_ux_list_category_5884aa12eb8b42905204f635cad0cd8d</sys_update_name><sys_updated_by>jspirko</sys_updated_by><sys_updated_on>2024-06-29 19:21:06</sys_updated_on><title>CWIP Application Table Example</title></sys_ux_list_category></record_update>]]></payload>
+        <payload_hash>-1694934963</payload_hash>
+        <record_name>CWIP Application Table Example</record_name>
+        <reverted_from/>
+        <source>f504eafcff5a42103ca0f6648c4fd9dc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-06-29 19:21:06</sys_created_on>
+        <sys_id>5c84aa12eb8b42905204f635cad0cd9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1906571aca20000001</sys_recorded_at>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-06-29 19:21:06</sys_updated_on>
+        <type>UX List Category</type>
+        <update_guid>dc84aa12b38b429092c8b5620d06c89b</update_guid>
+        <update_guid_history>dc84aa12b38b429092c8b5620d06c89b:-1694934963</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-06-30 00:37:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_list_category">sys_ux_list_category</sys_db_object>
+        <sys_id>7e310eefa63840f6944af59872437419</sys_id>
+        <sys_metadata>5884aa12eb8b42905204f635cad0cd8d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CWIP Application Table Example</sys_name>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_scope_delete display_value="">46efe59db52b4c0da8bf7f5e083feb49</sys_scope_delete>
+        <sys_update_name>sys_ux_list_category_5884aa12eb8b42905204f635cad0cd8d</sys_update_name>
+        <sys_update_version display_value="sys_ux_list_category_5884aa12eb8b42905204f635cad0cd8d">5c84aa12eb8b42905204f635cad0cd9c</sys_update_version>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-06-30 00:37:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

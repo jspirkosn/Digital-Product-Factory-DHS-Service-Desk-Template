@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="DELETE">
+        <sc_cat_item display_value="Copy of {Agency} Licenses &amp; Permits Config">6741322fff0302103ca0f6648c4fd9a7</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:29:30</sys_created_on>
+        <sys_id>e451b22fff0302103ca0f6648c4fd94e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of {Agency} Licenses &amp; Permits Config.SNC External</sys_name>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_e451b22fff0302103ca0f6648c4fd94e</sys_update_name>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-03 17:29:30</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</application>
+        <file_path/>
+        <instance_id>76bfb9f61ba9f594fe1b43f4bd4bcb74</instance_id>
+        <instance_name>dsforum</instance_name>
+        <name>sc_cat_item_user_criteria_no_mtom_e451b22fff0302103ca0f6648c4fd94e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom"><sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Copy of {Agency} Licenses &amp; Permits Config">6741322fff0302103ca0f6648c4fd9a7</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name><sys_created_by>jspirko</sys_created_by><sys_created_on>2024-07-03 17:29:30</sys_created_on><sys_id>e451b22fff0302103ca0f6648c4fd94e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Copy of {Agency} Licenses &amp; Permits Config.SNC External</sys_name><sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package><sys_policy/><sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope><sys_update_name>sc_cat_item_user_criteria_no_mtom_e451b22fff0302103ca0f6648c4fd94e</sys_update_name><sys_updated_by>jspirko</sys_updated_by><sys_updated_on>2024-07-03 17:29:30</sys_updated_on><user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria></sc_cat_item_user_criteria_no_mtom></record_update>]]></payload>
+        <payload_hash>1469561395</payload_hash>
+        <record_name>Copy of {Agency} Licenses &amp; Permits Config.SNC External</record_name>
+        <reverted_from/>
+        <source>f504eafcff5a42103ca0f6648c4fd9dc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:29:30</sys_created_on>
+        <sys_id>6051b22fff0302103ca0f6648c4fd952</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19079a4f01e0000001</sys_recorded_at>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-03 17:29:30</sys_updated_on>
+        <type>Catalog Item Not Available for</type>
+        <update_guid>2451b22fb70302102328beb06d267f51</update_guid>
+        <update_guid_history>2451b22fb70302102328beb06d267f51:1469561395</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Copy of {Agency} Licenses &amp; Permits Config.SNC External">24f47aa3ff4302103ca0f6648c4fd949</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-03 17:45:21</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_no_mtom">sc_cat_item_user_criteria_no_mtom</sys_db_object>
+        <sys_id>62a27b2bff704a368a6075eb8f469664</sys_id>
+        <sys_metadata>e451b22fff0302103ca0f6648c4fd94e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of {Agency} Licenses &amp; Permits Config.SNC External</sys_name>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_scope_delete display_value="">46efe59db52b4c0da8bf7f5e083feb49</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_e451b22fff0302103ca0f6648c4fd94e</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_no_mtom_e451b22fff0302103ca0f6648c4fd94e">6051b22fff0302103ca0f6648c4fd952</sys_update_version>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-03 17:45:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

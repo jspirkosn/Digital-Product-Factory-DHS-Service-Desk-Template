@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>Tabs Configuration</description>
+        <name>chrome_tab</name>
+        <page display_value="{Program Name} DHS Service Desk">72742a12298b429003ded1b08122f5fb</page>
+        <required_translations>[ {
+  "message" : "New CWIP Application Table Example",
+  "comment" : ""
+}, {
+  "message" : "New Medicaid Parent",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-06-29 19:21:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>36742a12eb8b429050f26978cc2cf3ec</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_update_name>sys_ux_page_property_36742a12eb8b429050f26978cc2cf3ec</sys_update_name>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-06-29 20:22:31</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_snc_pub_sub_dh_0.72742a12298b429003ded1b08122f5fb.root.chrome_tab</unique_name>
+        <value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New CWIP Application Table Example"},"routeInfo":{"route":"record","fields":{"table":"x_snc_pub_sub_dh_0_program_name_applications","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_snc_pub_sub_dh_0_program_name_applications","canCreate":true}}},{"label":{"translatable":true,"message":"New Medicaid Parent"},"routeInfo":{"route":"record","fields":{"table":"csm_consumer","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"csm_consumer","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=36742a12eb8b429050f26978cc2cf3ec"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</application>
+        <file_path/>
+        <instance_id>76bfb9f61ba9f594fe1b43f4bd4bcb74</instance_id>
+        <instance_name>dsforum</instance_name>
+        <name>sys_ux_page_property_36742a12eb8b429050f26978cc2cf3ec</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>Tabs Configuration</description><name>chrome_tab</name><page display_value="{Program Name} DHS Service Desk">72742a12298b429003ded1b08122f5fb</page><required_translations>[ {
+  "message" : "New CWIP Application Table Example",
+  "comment" : ""
+}, {
+  "message" : "New Medicaid Parent",
+  "comment" : ""
+} ]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>jspirko</sys_created_by><sys_created_on>2024-06-29 19:21:02</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>36742a12eb8b429050f26978cc2cf3ec</sys_id><sys_mod_count>2</sys_mod_count><sys_name>chrome_tab</sys_name><sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package><sys_policy/><sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope><sys_update_name>sys_ux_page_property_36742a12eb8b429050f26978cc2cf3ec</sys_update_name><sys_updated_by>jspirko</sys_updated_by><sys_updated_on>2024-06-29 20:22:31</sys_updated_on><type>json</type><unique_name>x_snc_pub_sub_dh_0.72742a12298b429003ded1b08122f5fb.root.chrome_tab</unique_name><value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New CWIP Application Table Example"},"routeInfo":{"route":"record","fields":{"table":"x_snc_pub_sub_dh_0_program_name_applications","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_snc_pub_sub_dh_0_program_name_applications","canCreate":true}}},{"label":{"translatable":true,"message":"New Medicaid Parent"},"routeInfo":{"route":"record","fields":{"table":"csm_consumer","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"csm_consumer","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=36742a12eb8b429050f26978cc2cf3ec"/></record_update>]]></payload>
+        <payload_hash>-511154073</payload_hash>
+        <record_name>chrome_tab</record_name>
+        <reverted_from/>
+        <source>f504eafcff5a42103ca0f6648c4fd9dc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-06-29 20:22:31</sys_created_on>
+        <sys_id>4c92b25eebcb42905204f635cad0cd88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19065a9e6040000001</sys_recorded_at>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-06-29 20:22:31</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>8c92b25e84cb429003b7094a8d912d87</update_guid>
+        <update_guid_history>8c92b25e84cb429003b7094a8d912d87:-511154073,81a4ae52b88b42908387eb282c917616:1936459747,49a4ae52e38b4290f905f75b1eee7214:530933129</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-06-30 00:37:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>11b0b990931e4c0c8020b63a52989c29</sys_id>
+        <sys_metadata>36742a12eb8b429050f26978cc2cf3ec</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_scope_delete display_value="">46efe59db52b4c0da8bf7f5e083feb49</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_36742a12eb8b429050f26978cc2cf3ec</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_36742a12eb8b429050f26978cc2cf3ec">4c92b25eebcb42905204f635cad0cd88</sys_update_version>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-06-30 00:37:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Pub Sub - DHS Service Desk App Config">d31da1be010702106a04ad067495b1c3</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Dashboards</name>
+        <optional_parameters>sysId,edit,tabSysId,filter,element</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>dashboards</route_type>
+        <screen_type display_value="Dashboards">db1da1bea6070210c7e0f3bd63c9c4b5</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-01 04:36:06</sys_created_on>
+        <sys_id>d71da1be1f07021088ad699c72d77ab6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dashboards</sys_name>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_update_name>sys_ux_app_route_d71da1be1f07021088ad699c72d77ab6</sys_update_name>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-01 04:36:06</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</application>
+        <file_path/>
+        <instance_id>76bfb9f61ba9f594fe1b43f4bd4bcb74</instance_id>
+        <instance_name>dsforum</instance_name>
+        <name>sys_ux_app_route_d71da1be1f07021088ad699c72d77ab6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="Pub Sub - DHS Service Desk App Config">d31da1be010702106a04ad067495b1c3</app_config><description/><extension_point/><fields/><icon/><name>Dashboards</name><optional_parameters>sysId,edit,tabSysId,filter,element</optional_parameters><order>0</order><parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><parent_macroponent_composition_element_id/><route_type>dashboards</route_type><screen_type display_value="Dashboards">db1da1bea6070210c7e0f3bd63c9c4b5</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>jspirko</sys_created_by><sys_created_on>2024-07-01 04:36:06</sys_created_on><sys_id>d71da1be1f07021088ad699c72d77ab6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Dashboards</sys_name><sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package><sys_policy/><sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope><sys_update_name>sys_ux_app_route_d71da1be1f07021088ad699c72d77ab6</sys_update_name><sys_updated_by>jspirko</sys_updated_by><sys_updated_on>2024-07-01 04:36:06</sys_updated_on></sys_ux_app_route></record_update>]]></payload>
+        <payload_hash>584140578</payload_hash>
+        <record_name>Dashboards</record_name>
+        <reverted_from/>
+        <source>73e2da11eb2202105204f635cad0cd91</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-01 18:59:01</sys_created_on>
+        <sys_id>23907936ff4702103ca0f6648c4fd99b</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fd52b61080000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX App Route</type>
+        <update_guid>ef90793674470210d91effe92c8ac29a</update_guid>
+        <update_guid_history>ef90793674470210d91effe92c8ac29a:584140578</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-01 04:51:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>00c1d9e7cde740448001f7c2567ac601</sys_id>
+        <sys_metadata>d71da1be1f07021088ad699c72d77ab6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dashboards</sys_name>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_scope_delete display_value="">46efe59db52b4c0da8bf7f5e083feb49</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_d71da1be1f07021088ad699c72d77ab6</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_d71da1be1f07021088ad699c72d77ab6">23907936ff4702103ca0f6648c4fd99b</sys_update_version>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-01 04:51:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
