@@ -89,14 +89,14 @@
         <sys_created_by>jspirko</sys_created_by>
         <sys_created_on>2024-06-11 20:38:00</sys_created_on>
         <sys_id>c77902a8ebb24a505204f635cad0cd35</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Create a {program name support} Enhancement Request</sys_name>
         <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
         <sys_policy/>
         <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
         <sys_update_name>sc_cat_item_producer_c77902a8ebb24a505204f635cad0cd35</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-07-11 20:00:20</sys_updated_on>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-09 21:08:33</sys_updated_on>
         <table_name>rm_enhancement</table_name>
         <taxonomy_topic/>
         <template/>
@@ -104,7 +104,7 @@
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>17</version>
+        <version>13</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>

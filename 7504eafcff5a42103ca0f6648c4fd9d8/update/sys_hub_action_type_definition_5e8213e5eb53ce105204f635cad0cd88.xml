@@ -748,23 +748,23 @@
         <label/>
         <name>FD9e8213e53553ce10a4f19f2266041dff</name>
         <namespace>FlowDesigner</namespace>
-        <scope_name>7504eafcff5a42103ca0f6648c4fd9d8</scope_name>
+        <scope_name>001dbf756c574250ccca8c3a83d92a83</scope_name>
         <serialized_content>{"FlowDesigner:FD9e8213e53553ce10a4f19f2266041dff":{"result":{"configuration":{"link":"String","link.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"link\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"c8230c71-d900-486d-a373-99320163aa82\"}"},"value":"String","value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"7b63fb3e-90e5-4c26-8779-5bb8a0106fb7\"}"}},"configuration.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"configuration\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"2dcb8eca-8bec-4522-b9d6-e2fb5d2dae21\"}"},"sys_mod_count":"String","sys_mod_count.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"sys_mod_count\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"76292563-70ee-4dcf-8ea6-f5573b7b100f\"}"},"active":"String","active.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"active\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"68475931-6a84-48b4-9af9-1d7de5f6d32a\"}"},"description":"String","description.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"description\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\",\"uiUniqueId\":\"5b1be5cb-7dfe-4b24-8439-dc870bdb53b3\"}"},"sys_overrides":"String","sys_overrides.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"sys_overrides\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\",\"uiUniqueId\":\"9b184d52-7734-4570-b559-cf6d3b99abf2\"}"},"sys_updated_on":"String","sys_updated_on.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"sys_updated_on\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\",\"uiUniqueId\":\"5ae62320-fe7c-4111-92b4-69167bedf0cd\"}"},"sys_domain_path":"String","sys_domain_path.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"sys_domain_path\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\",\"uiUniqueId\":\"c367158b-0fa8-4d49-b65d-ef81ba50e046\"}"},"sys_tags":"String","sys_tags.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"sys_tags\",\"mandatory\":\"false\",\"order\":\"8\",\"max_length\":\"0\",\"uiUniqueId\":\"d998f32d-2f5a-4425-b163-8ccfc911ac6e\"}"},"title":"String","title.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"title\",\"mandatory\":\"false\",\"order\":\"9\",\"max_length\":\"0\",\"uiUniqueId\":\"eb883c39-39ad-4ed8-847e-f8e7597d6483\"}"},"sys_class_name":"String","sys_class_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"sys_class_name\",\"mandatory\":\"false\",\"order\":\"10\",\"max_length\":\"0\",\"uiUniqueId\":\"c5960cd1-1a2b-4719-8c7a-6c418523ad25\"}"},"sys_id":"String","sys_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"sys_id\",\"mandatory\":\"false\",\"order\":\"11\",\"max_length\":\"0\",\"uiUniqueId\":\"37c62f19-a92a-41ce-8bdc-c0a778f321b2\"}"},"sys_package":{"link":"String","link.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"link\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"3772f02f-809c-47fb-92c3-bef9440f7529\"}"},"value":"String","value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"78d3c14b-0cb4-4ae9-99d6-2869a760ad8d\"}"}},"sys_package.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"sys_package\",\"mandatory\":\"false\",\"order\":\"12\",\"max_length\":\"0\",\"uiUniqueId\":\"71dd56d1-2344-4020-a73b-e477fd54eb36\"}"},"sys_update_name":"String","sys_update_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"sys_update_name\",\"mandatory\":\"false\",\"order\":\"13\",\"max_length\":\"0\",\"uiUniqueId\":\"5e83d17b-241e-4882-9047-09a7a334467d\"}"},"sys_updated_by":"String","sys_updated_by.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"sys_updated_by\",\"mandatory\":\"false\",\"order\":\"14\",\"max_length\":\"0\",\"uiUniqueId\":\"ac3a8bb9-59b9-4c29-afcb-90d334049aff\"}"},"sys_created_on":"String","sys_created_on.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"sys_created_on\",\"mandatory\":\"false\",\"order\":\"15\",\"max_length\":\"0\",\"uiUniqueId\":\"46c36174-de68-488c-8cb5-de1546c5b2f5\"}"},"sys_domain":{"link":"String","link.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"link\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"43d09d91-7749-4b98-93b6-ba3876ffcf98\"}"},"value":"String","value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"cadec3c9-b574-43a2-bf9c-3a8f553ddabc\"}"}},"sys_domain.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"sys_domain\",\"mandatory\":\"false\",\"order\":\"16\",\"max_length\":\"0\",\"uiUniqueId\":\"94ed6710-339a-42f5-bf74-4573deaaa38b\"}"},"sys_name":"String","sys_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"sys_name\",\"mandatory\":\"false\",\"order\":\"17\",\"max_length\":\"0\",\"uiUniqueId\":\"cd35ea1d-1ac0-4366-a260-bd6d9c149451\"}"},"sys_scope":{"link":"String","link.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"link\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"81661b34-9b92-4c40-b5ee-971e20035b6c\"}"},"value":"String","value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"bb51fdcd-f5d6-416f-83e2-81caef0936c0\"}"}},"sys_scope.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"sys_scope\",\"mandatory\":\"false\",\"order\":\"18\",\"max_length\":\"0\",\"uiUniqueId\":\"31589ead-b60b-448a-b7bc-bba6f5243200\"}"},"sys_created_by":"String","sys_created_by.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"sys_created_by\",\"mandatory\":\"false\",\"order\":\"19\",\"max_length\":\"0\",\"uiUniqueId\":\"be27d96e-691e-4a79-9b69-e3532350fa4a\"}"},"order":"String","order.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"order\",\"mandatory\":\"false\",\"order\":\"20\",\"max_length\":\"0\",\"uiUniqueId\":\"08a8c453-3af0-4570-9b6e-e87a969fdf52\"}"},"sys_policy":"String","sys_policy.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"sys_policy\",\"mandatory\":\"false\",\"order\":\"21\",\"max_length\":\"0\",\"uiUniqueId\":\"bdbdc92d-116f-4848-9328-2f800f650d57\"}"}},"result.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"result\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"287ee5d6-541e-4b94-b21c-84aef46fd276\"}"}},"FlowDesigner:FD9e8213e53553ce10a4f19f2266041dff.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"root\",\"mandatory\":\"false\",\"uiUniqueId\":\"ab6be66d-23f2-4fcd-85fd-bf130214789b\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD9e8213e53553ce10a4f19f2266041dff\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
         <sys_class_name>sys_complex_object</sys_class_name>
         <sys_created_by>jspirko</sys_created_by>
-        <sys_created_on>2024-07-10 01:02:28</sys_created_on>
+        <sys_created_on>2024-07-10 22:46:52</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>528253e5eb53ce105204f635cad0cd00</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_id>1c1dff7507574250bbb2cb3b7ea42c41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
-        <sys_package/>
+        <sys_package display_value="CWIP" source="x_snc_cwip">001dbf756c574250ccca8c3a83d92a83</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_scope display_value="CWIP">001dbf756c574250ccca8c3a83d92a83</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jspirko</sys_updated_by>
-        <sys_updated_on>2024-07-10 01:09:50</sys_updated_on>
+        <sys_updated_on>2024-07-10 22:46:52</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -1301,23 +1301,23 @@
         <label/>
         <name>FDd68253e54453ce1022e6cd35ed1c9117</name>
         <namespace>FlowDesigner</namespace>
-        <scope_name>d0fddc1e4bd34250e96eec9dd2ca6994</scope_name>
+        <scope_name>001dbf756c574250ccca8c3a83d92a83</scope_name>
         <serialized_content>{"FlowDesigner:FDd68253e54453ce1022e6cd35ed1c9117":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDd68253e54453ce1022e6cd35ed1c9117.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"b7e7e421-684b-4b1f-8118-8260c414d8a1\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDd68253e54453ce1022e6cd35ed1c9117\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}}</serialized_content>
         <sys_class_name>sys_complex_object</sys_class_name>
         <sys_created_by>jspirko</sys_created_by>
-        <sys_created_on>2024-07-11 19:49:02</sys_created_on>
+        <sys_created_on>2024-07-10 22:46:53</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>20fd105e89d342501cc830f24ef63f45</sys_id>
+        <sys_id>141dff75a25742508261847429dbbe40</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
-        <sys_package display_value="7-11 Test 1" source="x_snc_7_11_test_1">d0fddc1e4bd34250e96eec9dd2ca6994</sys_package>
+        <sys_package display_value="CWIP" source="x_snc_cwip">001dbf756c574250ccca8c3a83d92a83</sys_package>
         <sys_policy/>
-        <sys_scope display_value="7-11 Test 1">d0fddc1e4bd34250e96eec9dd2ca6994</sys_scope>
+        <sys_scope display_value="CWIP">001dbf756c574250ccca8c3a83d92a83</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jspirko</sys_updated_by>
-        <sys_updated_on>2024-07-11 19:49:02</sys_updated_on>
+        <sys_updated_on>2024-07-10 22:46:53</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
@@ -1582,7 +1582,7 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d68253e5eb53ce105204f635cad0cd18"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=d68253e5eb53ce105204f635cad0cd18"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=5e8213e5eb53ce105204f635cad0cd88"/>
-    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=5e8213e5eb53ce105204f635cad0cd88^sys_idNOT IN181dff75615742501255461692b6143f,24fd105e04d34250a9730029dc33fa44,a3b00c0e6857ce10daf17381c9a528de,e68253e5eb53ce105204f635cad0cd2e,f8cb6fce2753c2506655e6482313c0a0"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=5e8213e5eb53ce105204f635cad0cd88^sys_idNOT IN181dff75615742501255461692b6143f,a3b00c0e6857ce10daf17381c9a528de,e68253e5eb53ce105204f635cad0cd2e"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
         <action_type_id display_value="Build Workspace Menu">5e8213e5eb53ce105204f635cad0cd88</action_type_id>
         <sys_created_by>jspirko</sys_created_by>
@@ -1593,16 +1593,6 @@
         <sys_updated_on>2024-07-10 22:46:53</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=181dff75615742501255461692b6143f"/>
-    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
-        <action_type_id display_value="Build Workspace Menu">5e8213e5eb53ce105204f635cad0cd88</action_type_id>
-        <sys_created_by>jspirko</sys_created_by>
-        <sys_created_on>2024-07-11 19:49:02</sys_created_on>
-        <sys_id>24fd105e04d34250a9730029dc33fa44</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>jspirko</sys_updated_by>
-        <sys_updated_on>2024-07-11 19:49:02</sys_updated_on>
-    </sys_hub_action_status_metadata>
-    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=24fd105e04d34250a9730029dc33fa44"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
         <action_type_id display_value="Build Workspace Menu">5e8213e5eb53ce105204f635cad0cd88</action_type_id>
         <sys_created_by>jspirko</sys_created_by>
@@ -1623,16 +1613,6 @@
         <sys_updated_on>2024-07-10 01:02:29</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=e68253e5eb53ce105204f635cad0cd2e"/>
-    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
-        <action_type_id display_value="Build Workspace Menu">5e8213e5eb53ce105204f635cad0cd88</action_type_id>
-        <sys_created_by>jspirko</sys_created_by>
-        <sys_created_on>2024-07-11 16:09:47</sys_created_on>
-        <sys_id>f8cb6fce2753c2506655e6482313c0a0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>jspirko</sys_updated_by>
-        <sys_updated_on>2024-07-11 16:09:47</sys_updated_on>
-    </sys_hub_action_status_metadata>
-    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=f8cb6fce2753c2506655e6482313c0a0"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_5e8213e5eb53ce105204f635cad0cd88^sys_idNOT IN168213e5eb53ce105204f635cad0cda1,1e8213e5eb53ce105204f635cad0cdca,5a3417a9eb53ce105204f635cad0cd3d,963417a9eb53ce105204f635cad0cd39,d23417a9eb53ce105204f635cad0cd35"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>category_name</element>
@@ -2122,23 +2102,23 @@
         <label/>
         <name>FD323457a99d53ce102f581d082d9b541d</name>
         <namespace>FlowDesigner</namespace>
-        <scope_name>d0fddc1e4bd34250e96eec9dd2ca6994</scope_name>
+        <scope_name>001dbf756c574250ccca8c3a83d92a83</scope_name>
         <serialized_content>{"FlowDesigner:FD323457a99d53ce102f581d082d9b541d":{"result":{"configuration":{"link":"String","link.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"link\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"c8230c71-d900-486d-a373-99320163aa82\"}"},"value":"String","value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"7b63fb3e-90e5-4c26-8779-5bb8a0106fb7\"}"}},"configuration.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"configuration\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"2dcb8eca-8bec-4522-b9d6-e2fb5d2dae21\"}"},"sys_mod_count":"String","sys_mod_count.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"sys_mod_count\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"76292563-70ee-4dcf-8ea6-f5573b7b100f\"}"},"active":"String","active.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"active\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"68475931-6a84-48b4-9af9-1d7de5f6d32a\"}"},"description":"String","description.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"description\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\",\"uiUniqueId\":\"5b1be5cb-7dfe-4b24-8439-dc870bdb53b3\"}"},"sys_overrides":"String","sys_overrides.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"sys_overrides\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\",\"uiUniqueId\":\"9b184d52-7734-4570-b559-cf6d3b99abf2\"}"},"sys_updated_on":"String","sys_updated_on.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"sys_updated_on\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\",\"uiUniqueId\":\"5ae62320-fe7c-4111-92b4-69167bedf0cd\"}"},"sys_domain_path":"String","sys_domain_path.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"sys_domain_path\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\",\"uiUniqueId\":\"c367158b-0fa8-4d49-b65d-ef81ba50e046\"}"},"sys_tags":"String","sys_tags.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"sys_tags\",\"mandatory\":\"false\",\"order\":\"8\",\"max_length\":\"0\",\"uiUniqueId\":\"d998f32d-2f5a-4425-b163-8ccfc911ac6e\"}"},"title":"String","title.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"title\",\"mandatory\":\"false\",\"order\":\"9\",\"max_length\":\"0\",\"uiUniqueId\":\"eb883c39-39ad-4ed8-847e-f8e7597d6483\"}"},"sys_class_name":"String","sys_class_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"sys_class_name\",\"mandatory\":\"false\",\"order\":\"10\",\"max_length\":\"0\",\"uiUniqueId\":\"c5960cd1-1a2b-4719-8c7a-6c418523ad25\"}"},"sys_id":"String","sys_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"sys_id\",\"mandatory\":\"false\",\"order\":\"11\",\"max_length\":\"0\",\"uiUniqueId\":\"37c62f19-a92a-41ce-8bdc-c0a778f321b2\"}"},"sys_package":{"link":"String","link.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"link\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"3772f02f-809c-47fb-92c3-bef9440f7529\"}"},"value":"String","value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"78d3c14b-0cb4-4ae9-99d6-2869a760ad8d\"}"}},"sys_package.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"sys_package\",\"mandatory\":\"false\",\"order\":\"12\",\"max_length\":\"0\",\"uiUniqueId\":\"71dd56d1-2344-4020-a73b-e477fd54eb36\"}"},"sys_update_name":"String","sys_update_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"sys_update_name\",\"mandatory\":\"false\",\"order\":\"13\",\"max_length\":\"0\",\"uiUniqueId\":\"5e83d17b-241e-4882-9047-09a7a334467d\"}"},"sys_updated_by":"String","sys_updated_by.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"sys_updated_by\",\"mandatory\":\"false\",\"order\":\"14\",\"max_length\":\"0\",\"uiUniqueId\":\"ac3a8bb9-59b9-4c29-afcb-90d334049aff\"}"},"sys_created_on":"String","sys_created_on.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"sys_created_on\",\"mandatory\":\"false\",\"order\":\"15\",\"max_length\":\"0\",\"uiUniqueId\":\"46c36174-de68-488c-8cb5-de1546c5b2f5\"}"},"sys_domain":{"link":"String","link.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"link\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"43d09d91-7749-4b98-93b6-ba3876ffcf98\"}"},"value":"String","value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"cadec3c9-b574-43a2-bf9c-3a8f553ddabc\"}"}},"sys_domain.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"sys_domain\",\"mandatory\":\"false\",\"order\":\"16\",\"max_length\":\"0\",\"uiUniqueId\":\"94ed6710-339a-42f5-bf74-4573deaaa38b\"}"},"sys_name":"String","sys_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"sys_name\",\"mandatory\":\"false\",\"order\":\"17\",\"max_length\":\"0\",\"uiUniqueId\":\"cd35ea1d-1ac0-4366-a260-bd6d9c149451\"}"},"sys_scope":{"link":"String","link.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"link\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"81661b34-9b92-4c40-b5ee-971e20035b6c\"}"},"value":"String","value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"bb51fdcd-f5d6-416f-83e2-81caef0936c0\"}"}},"sys_scope.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"sys_scope\",\"mandatory\":\"false\",\"order\":\"18\",\"max_length\":\"0\",\"uiUniqueId\":\"31589ead-b60b-448a-b7bc-bba6f5243200\"}"},"sys_created_by":"String","sys_created_by.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"sys_created_by\",\"mandatory\":\"false\",\"order\":\"19\",\"max_length\":\"0\",\"uiUniqueId\":\"be27d96e-691e-4a79-9b69-e3532350fa4a\"}"},"order":"String","order.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"order\",\"mandatory\":\"false\",\"order\":\"20\",\"max_length\":\"0\",\"uiUniqueId\":\"08a8c453-3af0-4570-9b6e-e87a969fdf52\"}"},"sys_policy":"String","sys_policy.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"sys_policy\",\"mandatory\":\"false\",\"order\":\"21\",\"max_length\":\"0\",\"uiUniqueId\":\"bdbdc92d-116f-4848-9328-2f800f650d57\"}"}},"result.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"result\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"287ee5d6-541e-4b94-b21c-84aef46fd276\"}"}},"FlowDesigner:FD323457a99d53ce102f581d082d9b541d.$type_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"root\",\"mandatory\":\"false\",\"uiUniqueId\":\"ab6be66d-23f2-4fcd-85fd-bf130214789b\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD323457a99d53ce102f581d082d9b541d\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
         <sys_class_name>sys_complex_object</sys_class_name>
         <sys_created_by>jspirko</sys_created_by>
-        <sys_created_on>2024-07-11 19:49:03</sys_created_on>
+        <sys_created_on>2024-07-10 22:46:53</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>e8fd105e6bd342501d518fcf5e833c40</sys_id>
+        <sys_id>181dff751257425094aa63ec350d5e2f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
-        <sys_package display_value="7-11 Test 1" source="x_snc_7_11_test_1">d0fddc1e4bd34250e96eec9dd2ca6994</sys_package>
+        <sys_package display_value="CWIP" source="x_snc_cwip">001dbf756c574250ccca8c3a83d92a83</sys_package>
         <sys_policy/>
-        <sys_scope display_value="7-11 Test 1">d0fddc1e4bd34250e96eec9dd2ca6994</sys_scope>
+        <sys_scope display_value="CWIP">001dbf756c574250ccca8c3a83d92a83</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jspirko</sys_updated_by>
-        <sys_updated_on>2024-07-11 19:49:03</sys_updated_on>
+        <sys_updated_on>2024-07-10 22:46:53</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -3394,7 +3374,7 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f63457a9eb53ce105204f635cad0cd3e"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=f63457a9eb53ce105204f635cad0cd3e"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=ee3417a9eb53ce105204f635cad0cdcf"/>
-    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=ee3417a9eb53ce105204f635cad0cdcf^sys_idNOT IN2bb00c0e6b57ce107688e12176c44bd5,a8fd105ef8d34250aabfbe1e06d5063b,ba3457a9eb53ce105204f635cad0cd62,d41dff757c574250f4d279342247c12a,f0cb6fcead53c250304ed50c17ba017f"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=ee3417a9eb53ce105204f635cad0cdcf^sys_idNOT IN2bb00c0e6b57ce107688e12176c44bd5,ba3457a9eb53ce105204f635cad0cd62,d41dff757c574250f4d279342247c12a"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
         <action_type_id display_value="Build Workspace Menu">ee3417a9eb53ce105204f635cad0cdcf</action_type_id>
         <sys_created_by>jspirko</sys_created_by>
@@ -3405,16 +3385,6 @@
         <sys_updated_on>2024-07-10 23:02:59</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=2bb00c0e6b57ce107688e12176c44bd5"/>
-    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
-        <action_type_id display_value="Build Workspace Menu">ee3417a9eb53ce105204f635cad0cdcf</action_type_id>
-        <sys_created_by>jspirko</sys_created_by>
-        <sys_created_on>2024-07-11 19:49:03</sys_created_on>
-        <sys_id>a8fd105ef8d34250aabfbe1e06d5063b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>jspirko</sys_updated_by>
-        <sys_updated_on>2024-07-11 19:49:03</sys_updated_on>
-    </sys_hub_action_status_metadata>
-    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=a8fd105ef8d34250aabfbe1e06d5063b"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
         <action_type_id display_value="Build Workspace Menu">ee3417a9eb53ce105204f635cad0cdcf</action_type_id>
         <sys_created_by>jspirko</sys_created_by>
@@ -3435,16 +3405,6 @@
         <sys_updated_on>2024-07-10 22:46:54</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=d41dff757c574250f4d279342247c12a"/>
-    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
-        <action_type_id display_value="Build Workspace Menu">ee3417a9eb53ce105204f635cad0cdcf</action_type_id>
-        <sys_created_by>jspirko</sys_created_by>
-        <sys_created_on>2024-07-11 16:09:48</sys_created_on>
-        <sys_id>f0cb6fcead53c250304ed50c17ba017f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>jspirko</sys_updated_by>
-        <sys_updated_on>2024-07-11 16:09:48</sys_updated_on>
-    </sys_hub_action_status_metadata>
-    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=f0cb6fcead53c250304ed50c17ba017f"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_ee3417a9eb53ce105204f635cad0cdcf^sys_idNOT IN263417a9eb53ce105204f635cad0cdd8,2e3417a9eb53ce105204f635cad0cde4,6a3417a9eb53ce105204f635cad0cde0,e63417a9eb53ce105204f635cad0cddc,ee3417a9eb53ce105204f635cad0cde8"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>category_name</element>
