@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="{program name deliver} Ask a Question">de9b4373ff1b86103ca0f6648c4fd900</sc_cat_item>
+        <sc_catalog display_value="Government Service">39309be90ca14110f87754fcb42a79a1</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-19 17:45:22</sys_created_on>
+        <sys_id>7c6e0930eba70e105204f635cad0cd10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Government Service.{program name deliver} Ask a Question</sys_name>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_7c6e0930eba70e105204f635cad0cd10</sys_update_name>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-19 17:45:22</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

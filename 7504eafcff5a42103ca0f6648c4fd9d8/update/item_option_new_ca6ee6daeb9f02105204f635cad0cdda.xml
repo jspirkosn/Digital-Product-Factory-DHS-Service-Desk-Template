@@ -25,7 +25,7 @@
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
-        <hidden>false</hidden>
+        <hidden>true</hidden>
         <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
@@ -37,18 +37,18 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>enhancement_title</name>
-        <order>200</order>
+        <name>business_service_id</name>
+        <order>400</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Enhancement Title:</question_text>
-        <read_only>false</read_only>
+        <question_text>Business Service ID</question_text>
+        <read_only>true</read_only>
         <read_roles/>
         <read_script/>
         <rec_lookup_price/>
@@ -75,16 +75,16 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>jspirko</sys_created_by>
-        <sys_created_on>2024-06-28 17:51:25</sys_created_on>
-        <sys_id>2d2641caffcf8ad03ca0f6648c4fd9cb</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Enhancement Title:</sys_name>
+        <sys_created_on>2024-07-12 06:20:37</sys_created_on>
+        <sys_id>ca6ee6daeb9f02105204f635cad0cdda</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Business Service ID</sys_name>
         <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
         <sys_policy/>
         <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
-        <sys_update_name>item_option_new_2d2641caffcf8ad03ca0f6648c4fd9cb</sys_update_name>
+        <sys_update_name>item_option_new_ca6ee6daeb9f02105204f635cad0cdda</sys_update_name>
         <sys_updated_by>jspirko</sys_updated_by>
-        <sys_updated_on>2024-07-11 23:45:18</sys_updated_on>
+        <sys_updated_on>2024-07-17 00:09:18</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>
@@ -103,22 +103,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=2d2641caffcf8ad03ca0f6648c4fd9cb"/>
-    <fx_price action="delete_multiple" query="id=2d2641caffcf8ad03ca0f6648c4fd9cb"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=ca6ee6daeb9f02105204f635cad0cdda"/>
+    <fx_price action="delete_multiple" query="id=ca6ee6daeb9f02105204f635cad0cdda"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>2d2641caffcf8ad03ca0f6648c4fd9cb</id>
+        <id>ca6ee6daeb9f02105204f635cad0cdda</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>jspirko</sys_created_by>
-        <sys_created_on>2024-06-28 17:51:25</sys_created_on>
-        <sys_id>a866c5caffcf8ad03ca0f6648c4fd9a4</sys_id>
+        <sys_created_on>2024-07-12 06:20:37</sys_created_on>
+        <sys_id>8a8eeadaeb9f02105204f635cad0cd6b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>jspirko</sys_updated_by>
-        <sys_updated_on>2024-06-28 17:51:25</sys_updated_on>
+        <sys_updated_on>2024-07-12 06:20:37</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -126,16 +126,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>2d2641caffcf8ad03ca0f6648c4fd9cb</id>
+        <id>ca6ee6daeb9f02105204f635cad0cdda</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>jspirko</sys_created_by>
-        <sys_created_on>2024-06-28 17:51:25</sys_created_on>
-        <sys_id>6c66c5caffcf8ad03ca0f6648c4fd9a3</sys_id>
+        <sys_created_on>2024-07-12 06:20:37</sys_created_on>
+        <sys_id>868eeadaeb9f02105204f635cad0cd6a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>jspirko</sys_updated_by>
-        <sys_updated_on>2024-06-28 17:51:25</sys_updated_on>
+        <sys_updated_on>2024-07-12 06:20:37</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

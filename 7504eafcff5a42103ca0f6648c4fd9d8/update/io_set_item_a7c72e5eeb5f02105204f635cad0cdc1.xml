@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sc_cat_item display_value="Report a Service Interruption - {program name support}">5f9e75faeb1602505204f635cad0cd5e</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>jspirko</sys_created_by>
+        <sys_created_on>2024-07-12 05:51:14</sys_created_on>
+        <sys_id>a7c72e5eeb5f02105204f635cad0cdc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service and Offering Selection.Report a Service Interruption</sys_name>
+        <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+        <sys_update_name>io_set_item_a7c72e5eeb5f02105204f635cad0cdc1</sys_update_name>
+        <sys_updated_by>jspirko</sys_updated_by>
+        <sys_updated_on>2024-07-12 05:51:14</sys_updated_on>
+        <variable_set display_value="Service and Offering Selection">85a3a296eb5f02105204f635cad0cdec</variable_set>
+    </io_set_item>
+</record_update>

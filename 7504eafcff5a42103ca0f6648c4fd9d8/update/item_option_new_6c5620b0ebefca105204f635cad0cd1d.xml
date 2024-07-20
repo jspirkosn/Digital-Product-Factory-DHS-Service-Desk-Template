@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Create an Enhancement Request - {program name support}">c77902a8ebb24a505204f635cad0cd35</cat_item>
+        <cat_item display_value="{program name deliver} Dispute a Claim">4e1b4333ff1b86103ca0f6648c4fd99b</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -21,7 +21,7 @@
         <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field/>
+        <field>service</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -37,27 +37,27 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>true</mandatory>
-        <map_to_field>false</map_to_field>
+        <mandatory>false</mandatory>
+        <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>enhancement_title</name>
-        <order>200</order>
+        <name>service</name>
+        <order>300</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Enhancement Title:</question_text>
-        <read_only>false</read_only>
+        <question_text>service</question_text>
+        <read_only>true</read_only>
         <read_roles/>
         <read_script/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
-        <record_producer_table>rm_enhancement</record_producer_table>
-        <reference/>
-        <reference_qual>undefined</reference_qual>
-        <reference_qual_condition>undefined</reference_qual_condition>
+        <record_producer_table>x_snc_pub_sub_dh_0_non_application_cases</record_producer_table>
+        <reference>sn_case_type_selection</reference>
+        <reference_qual/>
+        <reference_qual_condition/>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
@@ -75,19 +75,19 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>jspirko</sys_created_by>
-        <sys_created_on>2024-06-28 17:51:25</sys_created_on>
-        <sys_id>2d2641caffcf8ad03ca0f6648c4fd9cb</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Enhancement Title:</sys_name>
+        <sys_created_on>2024-07-19 14:51:37</sys_created_on>
+        <sys_id>6c5620b0ebefca105204f635cad0cd1d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>service</sys_name>
         <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
         <sys_policy/>
         <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
-        <sys_update_name>item_option_new_2d2641caffcf8ad03ca0f6648c4fd9cb</sys_update_name>
+        <sys_update_name>item_option_new_6c5620b0ebefca105204f635cad0cd1d</sys_update_name>
         <sys_updated_by>jspirko</sys_updated_by>
-        <sys_updated_on>2024-07-11 23:45:18</sys_updated_on>
+        <sys_updated_on>2024-07-19 14:53:15</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>6</type>
+        <type>8</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -103,22 +103,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=2d2641caffcf8ad03ca0f6648c4fd9cb"/>
-    <fx_price action="delete_multiple" query="id=2d2641caffcf8ad03ca0f6648c4fd9cb"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=6c5620b0ebefca105204f635cad0cd1d"/>
+    <fx_price action="delete_multiple" query="id=6c5620b0ebefca105204f635cad0cd1d"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>2d2641caffcf8ad03ca0f6648c4fd9cb</id>
+        <id>6c5620b0ebefca105204f635cad0cd1d</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>jspirko</sys_created_by>
-        <sys_created_on>2024-06-28 17:51:25</sys_created_on>
-        <sys_id>a866c5caffcf8ad03ca0f6648c4fd9a4</sys_id>
+        <sys_created_on>2024-07-19 14:51:37</sys_created_on>
+        <sys_id>2b962cb0ebefca105204f635cad0cdf0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>jspirko</sys_updated_by>
-        <sys_updated_on>2024-06-28 17:51:25</sys_updated_on>
+        <sys_updated_on>2024-07-19 14:51:37</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -126,16 +126,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>2d2641caffcf8ad03ca0f6648c4fd9cb</id>
+        <id>6c5620b0ebefca105204f635cad0cd1d</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>jspirko</sys_created_by>
-        <sys_created_on>2024-06-28 17:51:25</sys_created_on>
-        <sys_id>6c66c5caffcf8ad03ca0f6648c4fd9a3</sys_id>
+        <sys_created_on>2024-07-19 14:51:37</sys_created_on>
+        <sys_id>27962cb0ebefca105204f635cad0cdef</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>jspirko</sys_updated_by>
-        <sys_updated_on>2024-06-28 17:51:25</sys_updated_on>
+        <sys_updated_on>2024-07-19 14:51:37</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

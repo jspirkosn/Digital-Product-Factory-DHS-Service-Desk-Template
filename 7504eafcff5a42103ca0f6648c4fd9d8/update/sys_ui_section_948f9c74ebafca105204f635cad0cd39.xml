@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Applicant Information" section_id="948f9c74ebafca105204f635cad0cd39" sys_domain="global" table="x_snc_pub_sub_dh_0_non_application_cases" version="3" view="workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>consumer.constituent.primary_identification_type</element>
+            <position>0</position>
+            <sys_created_by>jspirko</sys_created_by>
+            <sys_created_on>2024-07-19 14:20:32</sys_created_on>
+            <sys_id>108f9c74ebafca105204f635cad0cd3d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Applicant Information" display_value="Applicant Information" name="x_snc_pub_sub_dh_0_non_application_cases" sys_domain="global" view="532646bec3213110299931ef05013153">948f9c74ebafca105204f635cad0cd39</sys_ui_section>
+            <sys_updated_by>jspirko</sys_updated_by>
+            <sys_updated_on>2024-07-19 14:20:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>consumer.constituent.drivers_license</element>
+            <position>1</position>
+            <sys_created_by>jspirko</sys_created_by>
+            <sys_created_on>2024-07-19 14:20:32</sys_created_on>
+            <sys_id>908f9c74ebafca105204f635cad0cd3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Applicant Information" display_value="Applicant Information" name="x_snc_pub_sub_dh_0_non_application_cases" sys_domain="global" view="532646bec3213110299931ef05013153">948f9c74ebafca105204f635cad0cd39</sys_ui_section>
+            <sys_updated_by>jspirko</sys_updated_by>
+            <sys_updated_on>2024-07-19 14:20:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>consumer.constituent.medicare_number</element>
+            <position>2</position>
+            <sys_created_by>jspirko</sys_created_by>
+            <sys_created_on>2024-07-19 14:20:32</sys_created_on>
+            <sys_id>1c8f9c74ebafca105204f635cad0cd3d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Applicant Information" display_value="Applicant Information" name="x_snc_pub_sub_dh_0_non_application_cases" sys_domain="global" view="532646bec3213110299931ef05013153">948f9c74ebafca105204f635cad0cd39</sys_ui_section>
+            <sys_updated_by>jspirko</sys_updated_by>
+            <sys_updated_on>2024-07-19 14:20:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>consumer.constituent.masked_social_security</element>
+            <position>3</position>
+            <sys_created_by>jspirko</sys_created_by>
+            <sys_created_on>2024-07-19 14:20:32</sys_created_on>
+            <sys_id>9c8f9c74ebafca105204f635cad0cd3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Applicant Information" display_value="Applicant Information" name="x_snc_pub_sub_dh_0_non_application_cases" sys_domain="global" view="532646bec3213110299931ef05013153">948f9c74ebafca105204f635cad0cd39</sys_ui_section>
+            <sys_updated_by>jspirko</sys_updated_by>
+            <sys_updated_on>2024-07-19 14:20:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>consumer.constituent.state_id</element>
+            <position>4</position>
+            <sys_created_by>jspirko</sys_created_by>
+            <sys_created_on>2024-07-19 14:20:32</sys_created_on>
+            <sys_id>188f9c74ebafca105204f635cad0cd3e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Applicant Information" display_value="Applicant Information" name="x_snc_pub_sub_dh_0_non_application_cases" sys_domain="global" view="532646bec3213110299931ef05013153">948f9c74ebafca105204f635cad0cd39</sys_ui_section>
+            <sys_updated_by>jspirko</sys_updated_by>
+            <sys_updated_on>2024-07-19 14:20:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>consumer.email</element>
+            <position>5</position>
+            <sys_created_by>jspirko</sys_created_by>
+            <sys_created_on>2024-07-19 14:20:32</sys_created_on>
+            <sys_id>948f9c74ebafca105204f635cad0cd3a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Applicant Information" display_value="Applicant Information" name="x_snc_pub_sub_dh_0_non_application_cases" sys_domain="global" view="532646bec3213110299931ef05013153">948f9c74ebafca105204f635cad0cd39</sys_ui_section>
+            <sys_updated_by>jspirko</sys_updated_by>
+            <sys_updated_on>2024-07-19 14:20:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>consumer.street</element>
+            <position>6</position>
+            <sys_created_by>jspirko</sys_created_by>
+            <sys_created_on>2024-07-19 14:20:32</sys_created_on>
+            <sys_id>988f9c74ebafca105204f635cad0cd3c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Applicant Information" display_value="Applicant Information" name="x_snc_pub_sub_dh_0_non_application_cases" sys_domain="global" view="532646bec3213110299931ef05013153">948f9c74ebafca105204f635cad0cd39</sys_ui_section>
+            <sys_updated_by>jspirko</sys_updated_by>
+            <sys_updated_on>2024-07-19 14:20:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>jspirko</sys_created_by>
+            <sys_created_on>2024-07-19 14:20:32</sys_created_on>
+            <sys_id>1c8f9c74ebafca105204f635cad0cd3a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Applicant Information" display_value="Applicant Information" name="x_snc_pub_sub_dh_0_non_application_cases" sys_domain="global" view="532646bec3213110299931ef05013153">948f9c74ebafca105204f635cad0cd39</sys_ui_section>
+            <sys_updated_by>jspirko</sys_updated_by>
+            <sys_updated_on>2024-07-19 14:20:32</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>consumer.city</element>
+            <position>8</position>
+            <sys_created_by>jspirko</sys_created_by>
+            <sys_created_on>2024-07-19 14:20:32</sys_created_on>
+            <sys_id>948f9c74ebafca105204f635cad0cd3d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Applicant Information" display_value="Applicant Information" name="x_snc_pub_sub_dh_0_non_application_cases" sys_domain="global" view="532646bec3213110299931ef05013153">948f9c74ebafca105204f635cad0cd39</sys_ui_section>
+            <sys_updated_by>jspirko</sys_updated_by>
+            <sys_updated_on>2024-07-19 14:20:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>consumer.state</element>
+            <position>9</position>
+            <sys_created_by>jspirko</sys_created_by>
+            <sys_created_on>2024-07-19 14:20:32</sys_created_on>
+            <sys_id>188f9c74ebafca105204f635cad0cd3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Applicant Information" display_value="Applicant Information" name="x_snc_pub_sub_dh_0_non_application_cases" sys_domain="global" view="532646bec3213110299931ef05013153">948f9c74ebafca105204f635cad0cd39</sys_ui_section>
+            <sys_updated_by>jspirko</sys_updated_by>
+            <sys_updated_on>2024-07-19 14:20:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>consumer.zip</element>
+            <position>10</position>
+            <sys_created_by>jspirko</sys_created_by>
+            <sys_created_on>2024-07-19 14:20:32</sys_created_on>
+            <sys_id>908f9c74ebafca105204f635cad0cd3e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Applicant Information" display_value="Applicant Information" name="x_snc_pub_sub_dh_0_non_application_cases" sys_domain="global" view="532646bec3213110299931ef05013153">948f9c74ebafca105204f635cad0cd39</sys_ui_section>
+            <sys_updated_by>jspirko</sys_updated_by>
+            <sys_updated_on>2024-07-19 14:20:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>consumer.country</element>
+            <position>11</position>
+            <sys_created_by>jspirko</sys_created_by>
+            <sys_created_on>2024-07-19 14:20:32</sys_created_on>
+            <sys_id>148f9c74ebafca105204f635cad0cd3c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Applicant Information" display_value="Applicant Information" name="x_snc_pub_sub_dh_0_non_application_cases" sys_domain="global" view="532646bec3213110299931ef05013153">948f9c74ebafca105204f635cad0cd39</sys_ui_section>
+            <sys_updated_by>jspirko</sys_updated_by>
+            <sys_updated_on>2024-07-19 14:20:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Applicant Information</caption>
+            <header>false</header>
+            <name>x_snc_pub_sub_dh_0_non_application_cases</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>jspirko</sys_created_by>
+            <sys_created_on>2024-07-19 14:20:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>948f9c74ebafca105204f635cad0cd39</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_pub_sub_dh_0_non_application_cases</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+            <sys_update_name>sys_ui_section_948f9c74ebafca105204f635cad0cd39</sys_update_name>
+            <sys_updated_by>jspirko</sys_updated_by>
+            <sys_updated_on>2024-07-19 14:20:32</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">532646bec3213110299931ef05013153</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

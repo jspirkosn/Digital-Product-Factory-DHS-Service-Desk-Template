@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Major Case Information" section_id="0c8f5c74ebafca105204f635cad0cdaf" sys_domain="global" table="x_snc_pub_sub_dh_0_non_application_cases" version="3" view="major_case">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>major_case_state</element>
+            <position>0</position>
+            <sys_created_by>jspirko</sys_created_by>
+            <sys_created_on>2024-07-19 14:20:31</sys_created_on>
+            <sys_id>8c8f5c74ebafca105204f635cad0cdb1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Major Case Information" display_value="Major Case Information" name="x_snc_pub_sub_dh_0_non_application_cases" sys_domain="global" view="5eebd063c38e3590299931ef050131cd">0c8f5c74ebafca105204f635cad0cdaf</sys_ui_section>
+            <sys_updated_by>jspirko</sys_updated_by>
+            <sys_updated_on>2024-07-19 14:20:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>jspirko</sys_created_by>
+            <sys_created_on>2024-07-19 14:20:31</sys_created_on>
+            <sys_id>008f5c74ebafca105204f635cad0cdb3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Major Case Information" display_value="Major Case Information" name="x_snc_pub_sub_dh_0_non_application_cases" sys_domain="global" view="5eebd063c38e3590299931ef050131cd">0c8f5c74ebafca105204f635cad0cdaf</sys_ui_section>
+            <sys_updated_by>jspirko</sys_updated_by>
+            <sys_updated_on>2024-07-19 14:20:31</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>recipient_list</element>
+            <position>2</position>
+            <sys_created_by>jspirko</sys_created_by>
+            <sys_created_on>2024-07-19 14:20:31</sys_created_on>
+            <sys_id>048f5c74ebafca105204f635cad0cdb2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Major Case Information" display_value="Major Case Information" name="x_snc_pub_sub_dh_0_non_application_cases" sys_domain="global" view="5eebd063c38e3590299931ef050131cd">0c8f5c74ebafca105204f635cad0cdaf</sys_ui_section>
+            <sys_updated_by>jspirko</sys_updated_by>
+            <sys_updated_on>2024-07-19 14:20:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>3</position>
+            <sys_created_by>jspirko</sys_created_by>
+            <sys_created_on>2024-07-19 14:20:31</sys_created_on>
+            <sys_id>848f5c74ebafca105204f635cad0cdb3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Major Case Information" display_value="Major Case Information" name="x_snc_pub_sub_dh_0_non_application_cases" sys_domain="global" view="5eebd063c38e3590299931ef050131cd">0c8f5c74ebafca105204f635cad0cdaf</sys_ui_section>
+            <sys_updated_by>jspirko</sys_updated_by>
+            <sys_updated_on>2024-07-19 14:20:31</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>business_impact</element>
+            <position>4</position>
+            <sys_created_by>jspirko</sys_created_by>
+            <sys_created_on>2024-07-19 14:20:31</sys_created_on>
+            <sys_id>808f5c74ebafca105204f635cad0cdb1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Major Case Information" display_value="Major Case Information" name="x_snc_pub_sub_dh_0_non_application_cases" sys_domain="global" view="5eebd063c38e3590299931ef050131cd">0c8f5c74ebafca105204f635cad0cdaf</sys_ui_section>
+            <sys_updated_by>jspirko</sys_updated_by>
+            <sys_updated_on>2024-07-19 14:20:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>probable_cause</element>
+            <position>5</position>
+            <sys_created_by>jspirko</sys_created_by>
+            <sys_created_on>2024-07-19 14:20:31</sys_created_on>
+            <sys_id>888f5c74ebafca105204f635cad0cdb2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Major Case Information" display_value="Major Case Information" name="x_snc_pub_sub_dh_0_non_application_cases" sys_domain="global" view="5eebd063c38e3590299931ef050131cd">0c8f5c74ebafca105204f635cad0cdaf</sys_ui_section>
+            <sys_updated_by>jspirko</sys_updated_by>
+            <sys_updated_on>2024-07-19 14:20:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Major Case Information</caption>
+            <header>false</header>
+            <name>x_snc_pub_sub_dh_0_non_application_cases</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>jspirko</sys_created_by>
+            <sys_created_on>2024-07-19 14:20:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c8f5c74ebafca105204f635cad0cdaf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_pub_sub_dh_0_non_application_cases</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
+            <sys_update_name>sys_ui_section_0c8f5c74ebafca105204f635cad0cdaf</sys_update_name>
+            <sys_updated_by>jspirko</sys_updated_by>
+            <sys_updated_on>2024-07-19 14:20:31</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Major Case" name="major_case">5eebd063c38e3590299931ef050131cd</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

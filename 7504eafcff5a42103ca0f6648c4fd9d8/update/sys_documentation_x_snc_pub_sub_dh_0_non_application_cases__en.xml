@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="Applications" language="en" table="x_snc_pub_sub_dh_0_program_name_applications">
+    <sys_documentation element="" label="Questions and Disputes" language="en" table="x_snc_pub_sub_dh_0_non_application_cases">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element/>
             <help/>
             <hint/>
-            <label>Applications</label>
+            <label>Questions and Disputes</label>
             <language>en</language>
-            <name>x_snc_pub_sub_dh_0_program_name_applications</name>
-            <plural>Applications</plural>
+            <name>x_snc_pub_sub_dh_0_non_application_cases</name>
+            <plural>Questions and Disputes</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>jspirko</sys_created_by>
-            <sys_created_on>2024-06-28 20:25:53</sys_created_on>
-            <sys_mod_count>4</sys_mod_count>
-            <sys_name>Applications</sys_name>
+            <sys_created_on>2024-07-19 14:20:30</sys_created_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Questions and Disputes</sys_name>
             <sys_package display_value="Pub Sub - DHS Service Desk" source="x_snc_pub_sub_dh_0">7504eafcff5a42103ca0f6648c4fd9d8</sys_package>
             <sys_policy/>
             <sys_scope display_value="Pub Sub - DHS Service Desk">7504eafcff5a42103ca0f6648c4fd9d8</sys_scope>
-            <sys_update_name>sys_documentation_x_snc_pub_sub_dh_0_program_name_applications__en</sys_update_name>
+            <sys_update_name>sys_documentation_x_snc_pub_sub_dh_0_non_application_cases__en</sys_update_name>
             <sys_updated_by>jspirko</sys_updated_by>
-            <sys_updated_on>2024-07-19 23:39:12</sys_updated_on>
+            <sys_updated_on>2024-07-19 23:40:16</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
